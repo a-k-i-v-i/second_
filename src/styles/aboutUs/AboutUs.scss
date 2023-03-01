@@ -1,0 +1,724 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.cdnfonts.com/css/muller-narrow");
+
+#about {
+  margin-top: 1024px;
+  padding: 110px;
+  .container {
+    width: 106%;
+    .motion {
+      position: absolute;
+      margin: -1015px 195px;
+      h1 {
+        text-align: center;
+        font-weight: 800;
+        font-size: 128px;
+        line-height: 128px;
+        color: #ffffff;
+        width: 840px;
+        span {
+          font-weight: 800;
+          font-size: 128px;
+          color: #ec3025;
+        }
+      }
+      p {
+        width: 576px;
+        font-size: 19px;
+        color: #ffffff;
+        margin: -43px 153px;
+      }
+    }
+    .founders {
+      display: flex;
+      justify-content: space-between;
+
+      .texts {
+        &-title {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 40px;
+          color: #ec3025;
+        }
+        &-text {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 140%;
+          display: flex;
+          align-items: center;
+          color: rgba(27, 27, 27, 0.8);
+          width: 380px;
+        }
+      }
+      .photos {
+        display: flex;
+        justify-content: space-between;
+        margin: 13px -53px;
+        .first {
+          margin: 16px 104px 0 -60px;
+          &-h3 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+          }
+          &-tex {
+            font-weight: 400;
+            font-size: 19px;
+            color: rgba(27, 27, 27, 0.8);
+          }
+        }
+      }
+    }
+    .license {
+      padding: 120px;
+      //background: #EFEFEF;
+      //width: 1440px;
+      //height: 654px;
+      .our {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .lis {
+          margin: 0px -125px;
+          .licenses {
+            h1 {
+              font-weight: 500;
+              font-size: 40px;
+              line-height: 40px;
+              color: #000000;
+            }
+            p {
+              width: 347px;
+              font-weight: 400;
+              font-size: 19px;
+              color: rgba(27, 27, 27, 0.8);
+            }
+          }
+          .study {
+            .it {
+              display: flex;
+              margin: 0 -2px -73px;
+              &-tit {
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 48px;
+                color: #d2d2d2;
+              }
+              &-text {
+                width: 377px;
+                font-weight: 400;
+                font-size: 32px;
+                color: rgba(27, 27, 27, 0.8);
+                padding: 12px 46px;
+              }
+              &-line {
+                width: 485px;
+                height: 0;
+                border: 1px solid #d2d2d2;
+                margin: 102px -523px;
+              }
+              &-t {
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 48px;
+                color: #d2d2d2;
+              }
+              &-txt {
+                width: 377px;
+                font-weight: 400;
+                font-size: 32px;
+                color: rgba(27, 27, 27, 0.8);
+                padding: 0 37px;
+              }
+              &-ln {
+                width: 485px;
+                height: 0;
+                border: 1px solid #d2d2d2;
+                margin: 132px -511px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .gallery {
+      .photos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        h1 {
+          font-size: 40px;
+          line-height: 40px;
+          color: #ec3025;
+        }
+        .imag {
+          padding: 20px;
+          .grad {
+            padding: 0 40px;
+          }
+        }
+      }
+      .other {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .image {
+          margin: -27px -49px;
+          padding: 13px;
+          .men {
+            padding: 0 40px;
+          }
+        }
+        a {
+          font-weight: 500;
+          font-size: 20px;
+
+          color: #000000;
+          padding-top: 14rem;
+          margin-right: 303px;
+        }
+      }
+    }
+  }
+  .logos {
+    width: 100vw;
+    background: linear-gradient(
+      289.3deg,
+      #131313 17.11%,
+      rgba(23, 23, 23, 0.943269) 53.28%,
+      rgba(28, 28, 28, 0.87) 100%
+    );
+    height: 221px;
+    margin-left: -110px;
+    margin-bottom: -111px;
+    margin-top: 92px;
+  }
+  .images {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+  }
+}
+
+@media (max-widh: 1500px) {
+}
+@media (max-widh: 1400px) {
+}
+@media (max-width: 1200px) {
+  #about {
+    .container {
+      .motion {
+        margin: -1015px 96px;
+      }
+      .founders {
+        flex-direction: column;
+        .photos {
+          margin: 6px 59px;
+        }
+      }
+      .license {
+        .our {
+          image {
+            margin: 0 -125px -11px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1140px) {
+  #about {
+    .container {
+      .license {
+        .our {
+          flex-direction: column;
+        }
+      }
+      .logos {
+        margin-top: 0;
+
+        margin-left: -111px;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  #about {
+    .container {
+      .motion {
+        margin: -1037px 0px;
+      }
+      .gallery {
+        .other {
+          a {
+            padding-top: 4rem;
+          }
+        }
+        .photos{
+          .imag{
+            .grad {
+              padding: 0 9px 6px 0px;
+          }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #about {
+    margin-top: 558px;
+    .container {
+      .motion {
+        margin: -628px -124px;
+p{
+  width: 588px;
+    font-size: 18px;
+}
+        h1 {
+          font-size: 77px;
+          width: 800px;
+          span {
+            
+            font-size: 80px;
+            
+        }
+        }
+      }
+      .founders {
+        .texts {
+          .texts-title {
+            text-align: center;
+          }
+          .texts-text {
+            width: 558px;
+          }
+        }
+        .photos {
+          display: flex;
+          /* align-items: center; */
+          margin: -6px 144px;
+          flex-direction: column;
+        }
+      }
+      .gallery {
+        .photos {
+          h1 {
+            margin: 0 0 36px 159px;
+          }
+          .imag{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .grad{
+              margin: 20px 0;
+            }
+            .men{
+              padding: 27px 7px;
+            }
+          }
+        }
+        .other{
+          .image{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .men{
+
+    padding: 20px 0;
+
+            }
+          }
+        }
+      }
+      .license{
+        .our{
+          .lis{
+            .licenses{
+              h1{
+                text-align: center;
+              }
+              p{
+                width: 552px;
+              }
+            }
+            .study{
+              .it{
+                margin: 5px 38px -73px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #about{
+    .container{
+      .motion{
+        margin: -609px -110px;
+        h1{
+          width: 561px;
+      margin-left: 8px;
+      span {
+        font-size: 78px;
+    } 
+        }
+        p{
+          width: 356px;
+            font-size: 19px;
+        }
+      }
+      .gallery{
+       
+          .photos{
+            h1 {
+              margin: 0 0 36px 117px;
+          }
+        .imag{
+          padding: 2px;
+        
+          .grad {
+            margin: 21px -50px;
+        }
+        }
+        }
+      }
+      .founders{
+        .photos{
+          .first {
+            margin: 27px 102px 0 -143px;
+        }
+        }
+        .texts{
+          .texts-text {
+            width: 439px;
+        }
+        }
+      }
+      .license{
+        .our{
+         .lis{
+          .study{
+            .it {
+              margin: 5px -50px -84px;
+          }
+          }
+          .licenses{
+            p{
+              width: 424px;
+          }
+          }
+         }
+            img{
+              width: 362%;
+            
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width:660px) {
+  #about{
+    .container{
+      .motion{
+        h1 {
+          font-size: 70px;
+          width: 695px;
+      }
+      p{
+        width: 463px; 
+      }
+      }
+      .founders{
+        .texts{
+          .texts-text {
+            width: 516px;
+        } 
+        }
+        .photos{
+          margin: -8px 105px;
+          .first-h3 {
+            font-size: 20px;
+        }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #about{
+    margin-top: 539px;
+  .container{
+    .motion{
+      h1 {
+        font-size: 57px;
+        width: 416px;
+        line-height: 83px;
+        span{
+          font-size: 57px;
+        }
+    }
+    p{
+      font-size: 16px;
+      margin: -43px 110px;
+      width: 280px;
+    }
+    }
+    .founders{
+      .texts{
+        margin: 0 -49px;
+        .texts-text {
+          font-size: 20px;
+          width: 338px;
+      }
+      }
+      .photos{
+        .first{
+          margin: 27px 84px 0 -166px;
+      }
+      .gallery{
+        margin: 0 1px 0 -52px;
+      }
+      }
+    }
+    .license{
+      .our{
+        img {
+          width: 9000%;
+      }
+        .lis{
+          .study{
+            .it {
+              margin: 5px 0px -92px;
+          }
+          .it-line {
+            width: 379px;
+            margin: 102px -414px;
+        }
+        .it-ln {
+          width: 373px;
+          margin: 127px -430px;
+      }
+            .it-text{
+              width: 242px;
+              }
+              .it-txt{
+                width: 270px;
+                font-size: 23px;
+              
+                }
+          }
+          .licenses{
+            p{
+              width: 363px;
+          }
+          }
+        }
+      }
+    }
+    .gallery{
+      .photos{
+        h1{
+          margin: 0 0 36px 41px;
+        }
+        .imag {
+          margin: 0 -69px;
+     
+      }
+      }
+      .other{
+        .image{
+          margin: -18px -76px;
+        }
+      }
+    }
+  }
+  }
+}
+@media (max-width:400px) {
+  #about .container .founders .photos {
+    margin: -11px 69px;
+}
+#about .container .gallery .photos .imag {
+  margin: 0 -96px;
+}
+#about .container .gallery .other .image {
+  margin: -18px -108px;
+}
+#about .container .gallery .other a{
+  margin-right: 0;
+}
+#about .container .gallery .photos h1 {
+  margin: 0 0 36px 15px;
+} 
+#about .container .license {
+  padding: 106px;
+} 
+#about .container .license .our .lis .licenses p {
+  width: 308px;
+}
+#about .container .license .our .lis .study .it-text {
+  width: 377px;
+  font-size: 25px;
+  padding: 16px 21px;
+}
+#about .container .license .our .lis .study .it-txt {
+  width: 230px;
+  font-size: 19px;
+}
+#about .container .license .our .lis .study .it-txt {
+  width: 329px;
+  padding: 17px 16px;
+}
+#about .container .license .our .lis .study .it-line {
+  width: 246px;
+  margin: 102px -474px;
+}
+#about .container .license .our .lis .study .it-ln {
+  width: 269px;
+  margin: 127px -429px;
+} 
+}
+@media (max-width: 376px) {
+  #about .container .motion p {
+    font-size: 16px;
+    margin: -29px 68px;
+}
+#about .container .motion h1 {
+  font-size: 46px;
+  width: 358px;
+  line-height: 73px;
+}
+#about .container .motion h1 span {
+  font-size: 53px;
+}
+#about .container .founders .texts .texts-text {
+  font-size: 16px;
+  width: 299px;
+}
+#about{
+  .container{
+   .imag{
+    .grad{
+      width: 325px;
+    }
+  img{
+    width: 325px;
+  }
+}
+  .gallery{
+    .other{
+      .image{
+        .men{
+          width: 325px;
+        }
+        img{
+          width: 325px; 
+        }
+      }
+    }
+  }
+  #about .container .license .our .lis .study .it {
+    margin: 5px -26px -101px;
+}
+ 
+  }
+}
+#about .container .founders .photos .first img{
+width: 320px;
+}
+#about .container .founders .photos {
+  margin: -11px 90px;
+}
+#about .container .license .our .lis .licenses h1 {
+
+  font-size: 37px;
+
+}
+#about .container .license .our .lis .study .it-txt {
+  width: 214px;
+  padding: 17px 18px;
+}
+#about .container .license .our .lis .study .it-ln {
+  margin: 127px -316px;
+}
+
+}
+@media (max-width: 320px) {
+  #about {
+    .container {
+      .motion {
+        margin: -1047px -31px;
+      }
+    }
+  }
+  #about .container .founders .texts .texts-text {
+    font-size: 16px;
+    width: 242px;
+}
+#about .container .founders .photos .first img {
+  width: 258px;
+}
+#about .container .license .our .lis .study .it {
+  margin: 5px -20px -104px;
+}
+#about .container .gallery .photos h1 {
+  margin: 0 0 12px -14px;
+}
+#about .container .imag img {
+  width: 267px;
+}
+#about .container .gallery .other .image .men {
+  width: 267px;
+}
+#about .container .gallery .other .image img {
+  width: 276px;
+}
+#about .container .imag .grad {
+  width: 274px;
+}
+#about .container .license .our .lis .licenses h1 {
+  font-size: 25px;
+  text-align: start;
+} 
+#about .container .license {
+  padding: 51px;
+}
+#about .container .license .our img {
+  width: 7283%;
+}
+#about .container .license .our .lis .study .it {
+  margin: -4px -4px -104px;
+}
+#about .container .motion {
+margin:  0 0;}
+#about .container .motion {
+  margin: -605px -124px;
+}
+#about .container .motion p {
+  font-size: 12px;
+  margin: -9px 75px;
+  width: 212px;
+}
+#about .container .motion h1 {
+  font-size: 36px;
+  width: 293px;
+  line-height: 55px;
+}
+#about .container .motion h1 span {
+  font-size: 44px;
+}
+#about .container .motion h1 {
+  font-size: 36px;
+  width: 293px;
+  padding-left: 19px;
+  line-height: 55px;
+}
+}
