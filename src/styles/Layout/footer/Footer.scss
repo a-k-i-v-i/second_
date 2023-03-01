@@ -1,0 +1,774 @@
+#footer {
+    margin-top: 1556px;
+    .footer {
+      // height: 451px;
+      background: #090a0c;
+      .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0;
+        .footer--f {
+          &--img {
+            margin-bottom: 100px;
+          }
+  
+          &--block--h1 {
+            font-family: "SF Pro Display";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #ffffff;
+            margin-top: 14px;
+            margin-bottom: 10px;
+          }
+          &--block--p {
+            font-family: "SF Pro Display";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.8);
+            padding: 14px 0 0px 0;
+          }
+        }
+  
+        .footer--s {
+          padding: 155px 0 0 0;
+  
+          &--p {
+            padding: 0 0 30px 0;
+            text-decoration: none;
+            font-family: "SF Pro Display";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 130%;
+            /* identical to box height, or 26px */
+  
+            display: flex;
+            align-items: center;
+  
+            color: #ffffff;
+          }
+        }
+        .footer--t {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+  
+          &--img {
+            display: flex;
+            gap: 20px;
+          }
+          &--ref {
+            margin-top: 8px;
+            margin-bottom: 100px;
+            font-family: "SF Pro Display";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+  
+            color: rgba(255, 255, 255, 0.6);
+          }
+          &--adress {
+            font-family: "SF Pro Display";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            margin-bottom: 36px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+  
+ @media (max-width : 1200px) {
+    #footer{
+        .footer{
+            .container{
+                width: 1100px;
+            }
+        }
+    }
+ }
+  @media (max-width: 992px) {
+    #footer {
+      height: 349px;
+      .footer {
+        background: #090a0c;
+        .container {
+          display: flex;
+          justify-content: space-between;
+          padding: 50px 0;
+  
+          .footer--map {
+            iframe {
+              width: 350px;
+              height: 250px;
+            }
+          }
+          .footer--f {
+            &--img {
+              margin-bottom: 60px;
+            }
+  
+            &--block--h1 {
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              display: flex;
+              align-items: center;
+              text-decoration: none;
+              color: #ffffff;
+              margin-top: 14px;
+              margin-bottom: 10px;
+            }
+            &--block--p {
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 300;
+              font-size: 18px;
+              display: flex;
+              align-items: center;
+              text-decoration: none;
+              color: rgba(255, 255, 255, 0.8);
+              padding: 14px 0 0px 0;
+            }
+          }
+  
+          .footer--s {
+            padding: 114px 0 0 0;
+  
+            &--p {
+              padding: 0 0 30px 0;
+              text-decoration: none;
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 130%;
+              /* identical to box height, or 26px */
+  
+              display: flex;
+              align-items: center;
+  
+              color: #ffffff;
+            }
+          }
+          .footer--t {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+  
+            &--img {
+              display: flex;
+              gap: 20px;
+            }
+            &--ref {
+              margin-top: 8px;
+              margin-bottom: 56px;
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 300;
+              font-size: 18px;
+              display: flex;
+              align-items: center;
+  
+              color: rgba(255, 255, 255, 0.6);
+            }
+            &--adress {
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 21px;
+              margin-bottom: 36px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 880px) {
+    #footer {
+      height: 293px;
+      .footer {
+        background: #090a0c;
+        .container {
+          display: flex;
+          justify-content: space-between;
+          padding: 50px 0;
+  
+          .footer--map {
+            iframe {
+              width: 300px;
+              height: 200px;
+            }
+          }
+          .footer--f {
+            &--img {
+              width: 62px;
+  
+              margin-bottom: 60px;
+            }
+  
+            &--block--h1 {
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              display: flex;
+              align-items: center;
+              text-decoration: none;
+              color: #ffffff;
+              margin-top: -7px;
+              margin-bottom: 1px;
+            }
+            &--block--p {
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 300;
+              font-size: 16px;
+              display: flex;
+              align-items: center;
+              text-decoration: none;
+              color: rgba(255, 255, 255, 0.8);
+              padding: 14px 0 0px 0;
+            }
+          }
+  
+          .footer--s {
+            padding: 87px 0 0 0;
+  
+            &--p {
+              padding: 0 0 27px 0;
+              text-decoration: none;
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 130%;
+              /* identical to box height, or 26px */
+  
+              display: flex;
+              align-items: center;
+  
+              color: #ffffff;
+            }
+          }
+          .footer--t {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+  
+            &--img {
+              display: flex;
+              gap: 20px;
+            }
+            &--ref {
+              margin-top: 8px;
+              margin-bottom: 38px;
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 300;
+              font-size: 18px;
+              display: flex;
+              align-items: center;
+  
+              color: rgba(255, 255, 255, 0.6);
+            }
+            &--adress {
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 21px;
+              margin-bottom: 24px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #footer {
+      height: 246px;
+      .footer {
+        background: #090a0c;
+        .container {
+          display: flex;
+          justify-content: space-between;
+          padding: 50px 0;
+  
+          .footer--map {
+            iframe {
+              width: 250px;
+              height: 150px;
+            }
+          }
+          .footer--f {
+            &--img {
+              width: 52px;
+              margin-bottom: 24px;
+            }
+  
+            &--block--h1 {
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              display: flex;
+              align-items: center;
+              text-decoration: none;
+              color: #ffffff;
+              margin-top: -7px;
+              margin-bottom: 1px;
+            }
+            &--block--p {
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 300;
+              font-size: 14px;
+              display: flex;
+              align-items: center;
+              text-decoration: none;
+              color: rgba(255, 255, 255, 0.8);
+              padding: 14px 0 0px 0;
+            }
+          }
+  
+          .footer--s {
+            padding: 46px 0 0 0;
+  
+            &--p {
+              padding: 0 0 29px 0;
+              text-decoration: none;
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 130%;
+              /* identical to box height, or 26px */
+  
+              display: flex;
+              align-items: center;
+  
+              color: #ffffff;
+            }
+          }
+          .footer--t {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+  
+            &--img {
+              display: flex;
+              gap: 20px;
+  
+              img {
+                width: 17px;
+                height: 20px;
+              }
+            }
+            &--ref {
+              margin-top: 8px;
+              margin-bottom: 7px;
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 300;
+              font-size: 16px;
+              display: flex;
+              align-items: center;
+  
+              color: rgba(255, 255, 255, 0.6);
+            }
+            &--adress {
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 21px;
+              margin-bottom: 24px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+  // @media (max-width: 660px) {
+  //   #footer {
+  //     height: 447px;
+  //     .footer {
+  //       background: #090a0c;
+  //       .container {
+  //         padding: 287px 0;
+  
+  //         .footer--map {
+  //           iframe {
+  //             position: absolute;
+  //             width: 266px;
+  //             height: 137px;
+  //             top: 280px;
+  //             right: 40px;
+  //           }
+  //         }
+  //         .footer--f {
+  //           position: absolute;
+  //           top: 283px;
+  //           &--img {
+  //             position: absolute;
+  //             left: -1px;
+  //             width: 68px;
+  //             margin-bottom: 8px;
+  //             top: -235px;
+  //           }
+  
+  //           &--block--h1 {
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 500;
+  //             font-size: 20px;
+  //             display: flex;
+  //             align-items: center;
+  //             text-decoration: none;
+  //             color: #ffffff;
+  //             margin-top: -7px;
+  //             margin-bottom: -4px;
+  //             margin-top: 10px;
+  //           }
+  //           &--block--p {
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 300;
+  //             font-size: 18px;
+  //             display: flex;
+  //             align-items: center;
+  //             text-decoration: none;
+  //             color: rgba(255, 255, 255, 0.8);
+  //             padding: 14px 0 0px 0;
+  //           }
+  //         }
+  
+  //         .footer--s {
+  //           padding: 46px 0 0 0;
+  //           position: absolute;
+  //           left: 24px;
+  //           top: 80px;
+  
+  //           &--p {
+  //             padding: 0 0 29px 0;
+  //             text-decoration: none;
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 500;
+  //             font-size: 18px;
+  //             line-height: 130%;
+  //             /* identical to box height, or 26px */
+  
+  //             display: flex;
+  //             align-items: center;
+  
+  //             color: #ffffff;
+  //           }
+  //         }
+  //         .footer--t {
+  //           top: 75px;
+  //           display: flex;
+  //           flex-direction: column;
+  //           align-items: flex-end;
+  //           position: absolute;
+  //           right: 44px;
+  
+  //           &--img {
+  //             display: flex;
+  //             gap: 20px;
+  
+  //             img {
+  //               width: 27px;
+  //               height: 25px;
+  //               margin-top: -27px;
+  //               margin-bottom: -5px;
+  //             }
+  //           }
+  //           &--ref {
+  //             margin-top: 8px;
+  //             margin-bottom: 27px;
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 300;
+  //             font-size: 18px;
+  //             display: flex;
+  //             align-items: center;
+  
+  //             color: rgba(255, 255, 255, 0.6);
+  //           }
+  //           &--adress {
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 400;
+  //             font-size: 18px;
+  //             line-height: 21px;
+  //             margin-bottom: 24px;
+  //             color: #ffffff;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  
+  // @media (max-width: 576px) {
+  //   #footer {
+  //     height: 447px;
+  //     .footer {
+  //       background: #090a0c;
+  //       .container {
+  //         padding: 287px 0;
+  
+  //         .footer--map {
+  //           iframe {
+  //             position: absolute;
+  
+  //             width: 211px;
+  //             height: 115px;
+  //             top: 280px;
+  //             right: 40px;
+  //           }
+  //         }
+  //         .footer--f {
+  //           position: absolute;
+  //           top: 283px;
+  //           &--img {
+  //             position: absolute;
+  //             left: 6px;
+  //             width: 55px;
+  //             margin-bottom: 8px;
+  //             top: -235px;
+  //           }
+  
+  //           &--block--h1 {
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 500;
+  //             font-size: 18px;
+  //             display: flex;
+  //             align-items: center;
+  //             text-decoration: none;
+  //             color: #ffffff;
+  //             margin-top: -4px;
+  //             margin-bottom: -4px;
+  //           }
+  //           &--block--p {
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 300;
+  //             font-size: 16px;
+  //             display: flex;
+  //             align-items: center;
+  //             text-decoration: none;
+  //             color: rgba(255, 255, 255, 0.8);
+  //             padding: 14px 0 0px 0;
+  //           }
+  //         }
+  
+  //         .footer--s {
+  //           padding: 46px 0 0 0;
+  //           position: absolute;
+  //           left: 24px;
+  //           top: 80px;
+  
+  //           &--p {
+  //             padding: 0 0 29px 0;
+  //             text-decoration: none;
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 500;
+  //             font-size: 16px;
+  //             line-height: 130%;
+  //             /* identical to box height, or 26px */
+  
+  //             display: flex;
+  //             align-items: center;
+  
+  //             color: #ffffff;
+  //           }
+  //         }
+  //         .footer--t {
+  //           top: 75px;
+  //           display: flex;
+  //           flex-direction: column;
+  //           align-items: flex-end;
+  //           position: absolute;
+  //           right: 44px;
+  
+  //           &--img {
+  //             display: flex;
+  //             gap: 10px;
+  
+  //             img {
+  //               width: 22px;
+  //               height: 23px;
+  //               margin-top: -27px;
+  //               margin-bottom: -5px;
+  //             }
+  //           }
+  //           &--ref {
+  //             margin-top: 8px;
+  //             margin-bottom: 27px;
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 300;
+  //             font-size: 16px;
+  //             display: flex;
+  //             align-items: center;
+  
+  //             color: rgba(255, 255, 255, 0.6);
+  //           }
+  //           &--adress {
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 400;
+  //             font-size: 14px;
+  //             line-height: 21px;
+  //             margin-bottom: 27px;
+  //             color: #ffffff;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  
+  // @media (max-width: 320px) {
+  //   #footer {
+  //     height: 447px;
+  //     .footer {
+  //       background: #090a0c;
+  //       .container {
+  //         padding: 287px 0;
+  
+  //         .footer--map {
+  //           iframe {
+  //             position: absolute;
+  
+  //             width: 162px;
+  //             height: 100px;
+  //             top: 280px;
+  //             right: 40px;
+  //           }
+  //         }
+  //         .footer--f {
+  //           position: absolute;
+  //           top: 283px;
+  //           &--img {
+  //             position: absolute;
+  //             left: 6px;
+  //             width: 55px;
+  //             margin-bottom: 8px;
+  //             top: -235px;
+  //           }
+  
+  //           &--block--h1 {
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 500;
+  //             font-size: 18px;
+  //             display: flex;
+  //             align-items: center;
+  //             text-decoration: none;
+  //             color: #ffffff;
+  //             margin-top: -4px;
+  //             margin-bottom: -4px;
+  //           }
+  //           &--block--p {
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 300;
+  //             font-size: 16px;
+  //             display: flex;
+  //             align-items: center;
+  //             text-decoration: none;
+  //             color: rgba(255, 255, 255, 0.8);
+  //             padding: 14px 0 0px 0;
+  //           }
+  //         }
+  
+  //         .footer--s {
+  //           padding: 46px 0 0 0;
+  //           position: absolute;
+  //           left: 24px;
+  //           top: 80px;
+  
+  //           &--p {
+  //             padding: 0 0 29px 0;
+  //             text-decoration: none;
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 500;
+  //             font-size: 16px;
+  //             line-height: 130%;
+  //             /* identical to box height, or 26px */
+  
+  //             display: flex;
+  //             align-items: center;
+  
+  //             color: #ffffff;
+  //           }
+  //         }
+  //         .footer--t {
+  //           &--img {
+  //             display: flex;
+  //             gap: 10px;
+  //             position: absolute;
+  //             left: 92px;
+  
+  //             img {
+  //               width: 22px;
+  //               height: 23px;
+  //               margin-top: -27px;
+  //               margin-bottom: -5px;
+  //             }
+  //           }
+  //           &--ref {
+  //             margin-top: 8px;
+  
+  //             margin-bottom: 27px;
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 300;
+  //             font-size: 16px;
+  //             display: flex;
+  //             align-items: center;
+  
+  //             color: rgba(255, 255, 255, 0.6);
+  //           }
+  //           &--adress {
+  //             font-family: "SF Pro Display";
+  //             font-style: normal;
+  //             font-weight: 400;
+  //             font-size: 12px;
+  //             line-height: 21px;
+  //             margin-bottom: 27px;
+  //             color: #ffffff;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  

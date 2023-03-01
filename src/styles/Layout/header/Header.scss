@@ -1,0 +1,64 @@
+@import './headerMedis.scss';
+#header {
+    height: 53px;
+    background: #f8f8f8;
+    backdrop-filter: blur(12.5px);
+    padding-top: 30px;
+  
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      &--navbar {
+        text-decoration: none;
+        cursor: pointer;
+        display: flex;
+        gap: 40px;
+        height: 18px;
+        font-family: "SF Pro Display", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        /* identical to box height */
+        color: rgba(27, 27, 27, 0.6);
+  
+        &--link {
+          text-decoration: none;
+          cursor: pointer;
+          height: 18px;
+          font-family: "SF Pro Display";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 18px;
+          color: rgba(27, 27, 27, 0.6);
+        }
+        &--link:hover{
+          color: #1B1B1B;
+        }
+      }
+      .burger_navbar{
+        display: none;
+      }
+  
+      &--language {
+        display: flex;
+        gap: 5px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        /* identical to box height */
+  
+        color: rgba(27, 27, 27, 0.6);
+      }
+    }
+  }
+  
+  .active{
+      color: #1B1B1B;
+  }
+  

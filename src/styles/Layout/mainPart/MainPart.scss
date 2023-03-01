@@ -1,0 +1,11 @@
+@import "./mainMedia.scss";
+
+#mainPart {
+  z-index: -99;
+  .mainPart {
+    z-index: -99;
+    .an12{
+        right: 525px;
+    }
+  }
+}
