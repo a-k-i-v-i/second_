@@ -1,0 +1,626 @@
+//.container{
+//  width: 1500px;
+//}
+
+#frontEnd {
+
+  .frontEnd {
+    background: #F8F8F8;
+
+    &--inform {
+      display: flex;
+      justify-content: space-between;
+
+      &__question {
+        margin-top: -20px;
+
+        h3 {
+          font-weight: 500;
+          font-size: 36px;
+          //display: flex;
+          //align-items: center;
+
+          color: #000000;
+
+          span {
+            font-weight: 500;
+            font-size: 36px;
+            //display: flex;
+            //align-items: center;
+
+            color: #EC3025;
+          }
+
+        }
+
+        h4 {
+          font-weight: 500;
+          font-size: 36px;
+          //display: flex;
+          //align-items: center;
+          margin-top: -30px;
+          color: #EC3025;
+
+          span {
+            font-weight: 500;
+            font-size: 36px;
+
+            //display: flex;
+            //align-items: center;
+
+            color: #000000;
+          }
+        }
+      }
+
+      &__text {
+        p {
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 140%;
+          /* or 27px */
+
+          display: flex;
+          align-items: center;
+
+          color: rgba(27, 27, 27, 0.8);
+          width: 608px;
+        }
+
+        h4 {
+          width: 647px;
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 140%;
+          /* or 27px */
+
+          display: flex;
+          align-items: center;
+
+          color: rgba(27, 27, 27, 0.8);
+        }
+      }
+    }
+
+    &--courses {
+      padding: 60px 0;
+
+      h2 {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+        width: 275px;
+      }
+
+      &__inform {
+        display: flex;
+        justify-content: space-between;
+
+
+        &--first {
+
+          &__fon {
+            display: flex;
+            justify-content: center;
+            width: 380px;
+            height: 202px;
+            left: 110px;
+            top: 1353px;
+
+            /* плажки */
+
+            background: linear-gradient(180deg, #EDF1FF 0%, rgba(203, 214, 255, 0.65) 100%);
+            border-radius: 20px;
+
+            img {
+              width: 236px;
+              height: 170px;
+              margin-top: 31px;
+            }
+          }
+
+          h3 {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            /* identical to box height */
+
+            display: flex;
+            align-items: center;
+
+            color: #000000;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 130%;
+            /* or 23px */
+
+            display: flex;
+            align-items: center;
+
+            color: rgba(27, 27, 27, 0.8);
+            width: 377px;
+
+          }
+        }
+      }
+    }
+
+    &--title {
+      width: 1014px;
+      height: 229px;
+
+      /* red */
+
+      border: 2px solid #EC3025;
+      border-radius: 125px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 100px;
+
+
+      &__first {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        h1 {
+          font-weight: 500;
+          font-size: 64px;
+          line-height: 0;
+          text-align: center;
+          /* identical to box height */
+
+          display: flex;
+          align-items: center;
+
+          /* красный */
+
+          color: #EC3025;
+
+        }
+
+        h5 {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 0;
+          /* identical to box height */
+          margin-left: -20px;
+          color: #1B1B1B;
+
+        }
+      }
+    }
+
+    &--buttons {
+      padding: 130px 0;
+      display: flex;
+      justify-content: space-between;
+
+
+      button {
+        width: 590px;
+        height: 205px;
+        left: 110px;
+        top: 2138px;
+
+        /* bg */
+
+        background: linear-gradient(289.3deg, #131313 17.11%, rgba(28, 28, 28, 0.87) 100%);
+        border-radius: 30px;
+        ////
+        font-weight: 500;
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: #FFFFFF;
+      }
+    }
+
+  }
+
+  .frontEnd--bottom {
+    background: #EFEFEF;
+
+
+    .frontEnd--cours {
+      padding: 70px 0;
+      display: flex;
+      justify-content: space-between;
+
+      &__text {
+
+        h2 {
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 40px;
+          display: flex;
+          align-items: center;
+          margin-top: 6px;
+
+          /* красный */
+
+          color: #EC3025;
+          width: 278px;
+        }
+      }
+
+      &__informs {
+
+        &--first {
+
+
+          &__title {
+            display: flex;
+            justify-content: space-between;
+            width: 870px;
+
+            h3 {
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 24px;
+              /* identical to box height */
+
+
+              color: #000000;
+            }
+
+            h4 {
+              width: 233px;
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 24px;
+              color: #000000;
+              margin-top: 23px;
+            }
+
+            p {
+              width: 477px;
+              font-weight: 400;
+              font-size: 19px;
+              line-height: 140%;
+              /* or 27px */
+
+
+              color: rgba(27, 27, 27, 0.8);
+
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  .frontEnd--certificate {
+    background: linear-gradient(289.3deg, #131313 17.11%, rgba(28, 28, 28, 0.87) 100%);
+
+
+    &__inform {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 80px 0;
+
+      &--text {
+
+        h3 {
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 40px;
+          /* identical to box height */
+
+          display: flex;
+          align-items: center;
+
+          color: #FFFFFF;
+        }
+
+        h6 {
+          width: 439px;
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 140%;
+          /* or 27px */
+
+          display: flex;
+          align-items: center;
+
+          color: rgba(255, 255, 255, 0.8);
+        }
+
+        &__buttons {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 370px;
+
+          button {
+            background: #FFFFFF;
+            border-radius: 30px;
+            padding: 5px 10px;
+
+            ////
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130.02%;
+            /* or 23px */
+
+            display: flex;
+            align-items: center;
+
+            color: #000000;
+            border: none;
+          }
+
+          .buttonEnglish {
+            background: #EC3025;
+            border-radius: 30px;
+            padding: 5px 14px;
+
+            ////
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130.02%;
+            /* or 23px */
+
+            display: flex;
+            align-items: center;
+
+            color: #FFFFFF;
+            border: none;
+
+          }
+        }
+      }
+    }
+  }
+
+  .designer {
+    padding: 70px 0;
+
+    &--choose {
+
+      width: 1220px;
+      height: 179px;
+      left: 110px;
+      top: 4052px;
+      background: #FF563F;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 10px 0;
+
+      h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 0;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 0;
+        /* identical to box height, or 27px */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+    }
+
+    &--fon {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 30px 0;
+
+      &__application {
+        width: 800px;
+        height: 344px;
+        left: 0;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        //align-items: center;
+        //justify-content: center;
+        background: #FF563F;
+        border-radius: 30px;
+        flex-direction: column;
+
+
+        input {
+          display: flex;
+          //flex-direction: row;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          width: 588px;
+          height: 63px;
+          padding: 0 20px;
+          background: #FFF8F8;
+          border-radius: 20px;
+          margin: 10px 0;
+
+        }
+
+        &--checked {
+          width: 646px;
+          margin: 10px 82px;
+        }
+
+        &--checked {
+          display: flex;
+          align-items: center;
+
+          input {
+            width: 15px;
+            height: 15px;
+            margin: 0 10px;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 130%;
+            /* or 18px */
+
+            display: flex;
+            align-items: center;
+
+            color: rgba(255, 255, 255, 0.7);
+
+          }
+        }
+
+        button {
+          padding: 17px 0;
+          width: 629px;
+          background: #090A0C;
+          border-radius: 44px;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          /* identical to box height */
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          color: #FFFFFF;
+          margin: 10px 82px;
+        }
+      }
+    }
+  }
+
+  .mentor {
+    background: #EFEFEF;
+    padding: 100px 0;
+
+    &--title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      h2 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* красный */
+
+        color: #EC3025;
+      }
+
+      h3 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* красный */
+
+        color: #000000;
+      }
+    }
+
+    &--boys {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 0;
+
+      &__first {
+
+        h3 {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 130%;
+
+          display: flex;
+          align-items: center;
+          text-align: center;
+
+          color: #000000;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 140%;
+          display: flex;
+          align-items: center;
+          width: 360px;
+
+          color: rgba(27, 27, 27, 0.8);
+
+
+        }
+      }
+    }
+
+    &--connection {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &__text {
+
+        h2 {
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 36px;
+          display: flex;
+          align-items: center;
+
+          color: #000000;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 140%;
+          display: flex;
+          align-items: center;
+          color: #1D1D20;
+        }
+      }
+    }
+
+
+  }
+}
+

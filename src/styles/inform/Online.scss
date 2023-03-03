@@ -1,0 +1,57 @@
+.Online {
+  width: 590px;
+  height: 468px;
+  transition: .7s;
+  /* красный 2 */
+  background: #FF563F;
+  border-radius: 30px;
+ &:hover {
+   transition: .2s;
+ }
+  h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 0;
+    /* identical to box height */
+    padding: 57px 70px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+  }
+
+  h4 {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    /* or 34px */
+    width: 355px;
+    display: flex;
+    align-items: center;
+    margin-left: 73px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  h3{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    /* or 34px */
+    margin-left: 73px;
+    display: flex;
+    align-items: center;
+    width: 280px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    /* or 34px */
+    margin-left: 73px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 0.8);
+    width: 390px;
+  }
+}
