@@ -17,6 +17,20 @@ const Frontend = () => {
     const [offline, setOffline] = useState(true)
     return (
         <>
+        <div className="main-title">
+           
+            <h1>FRONT <span>END</span></h1>
+            <div className="text">
+                <h5>{t('frontend.ALINA')}</h5>
+                <h5>{t('frontend.ALINA-')}</h5>
+                <h5>{t('frontend.ALINA--')}</h5>
+                <h5>{t('frontend.ALINA---')}</h5>
+                <h5>{t('frontend.ALINA----')}</h5>
+                <h4>{t('frontend.ux-ui')}</h4>
+            </div>
+            <button>{t("frontend.ALINA-button")}</button>
+            
+        </div>
             <div id="frontEnd">
 
                 <div className="frontEnd">
@@ -169,10 +183,10 @@ const Frontend = () => {
                                     <button>Русский</button>
                                     <button className="buttonEnglish">Английский</button>
                                 </div>
-                                <h6>{t("frontend.company")} <br/> {t("frontend.company-")} <br/> {t("frontend.company--")}
+                                <h6>{t("frontend.company")}
                                 </h6>
                             </div>
-                            <div>
+                            <div className="frontEnd--certificate__inform--img">
                                 <img src={Certificate} alt=""/>
                             </div>
 
@@ -198,7 +212,7 @@ const Frontend = () => {
                                     <input type="text" placeholder="Номер"/>
                                 </form>
                                 <div className="designer--fon__application--checked">
-                                    <input type="checkbox"/>
+                                    <input type="checkbox" className="check-box"/>
                                     <p>{t("frontend.agree")}</p>
 
                                 </div>
@@ -240,16 +254,16 @@ const Frontend = () => {
                                 <p>{t("frontend.texts")} <br/> {t("frontend.texts-")} <br/> {t("frontend.texts--")}</p>
                             </div>
                             <div className="mentor--connection__video">
-                                <iframe  width="380" height="215" style={{
+                                <iframe className="video"  width="380" height="215" style={{
                                     borderRadius: "30px",
                                     marginTop: "15px",
-                                    margin: "0 30px"
+                                    
                                 }}  src="https://www.youtube.com/embed/7VerRJwJP0s"
                                          title="YouTube video player" frameBorder="0"
                                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                          allowFullScreen>
                                 </iframe>
-                                <iframe width="380" height="215" style={{
+                                <iframe className="video" width="380" height="215" style={{
                                     borderRadius: "30px",
                                     marginTop: "15px"
                                 }} src="https://www.youtube.com/embed/H0ZTsv4ljcE"

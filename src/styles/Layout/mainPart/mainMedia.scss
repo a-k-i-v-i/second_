@@ -581,7 +581,7 @@
       .mainPart {
         .backdropBlur {
           position: absolute;
-          width: 1116px;
+          width: 1053px;
           height: 705px;
           left: 74px;
           top: 111px;
@@ -756,7 +756,7 @@
       .mainPart {
         .backdropBlur {
           position: absolute;
-          width: 1045px;
+          width: 985px;
           height: 705px;
           left: 74px;
           top: 113px;
@@ -859,7 +859,7 @@
       .mainPart {
         .backdropBlur {
           position: absolute;
-          width: 908px;
+          width: 839px;
           height: 705px;
           left: 74px;
           top: 110px;
@@ -1400,16 +1400,15 @@
       .mainPart {
         .backdropBlur {
           position: absolute;
-          width: 324px;
-          height: 378px;
+          width: 349px;
+          height: 350px;
           left: 33px;
           margin-left: -20px;
           top: 90px;
-          background: linear-gradient(
-            289.3deg,
-            rgba(19, 19, 19, 0.3) 17.11%,
-            rgba(28, 28, 28, 0.261) 100%
-          );
+          background: linear-gradient(289.3deg, rgba(19, 19, 19, 0.3) 17.11%, rgba(28, 28, 28, 0.261) 100%);
+          -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(6.5px);
+          border-radius: 20px;
           -webkit-backdrop-filter: blur(7.5px);
           backdrop-filter: blur(7.5px);
           border-radius: 20px;
@@ -1578,13 +1577,9 @@
   }
   @media (max-width: 320px) {
     #mainPart {
-      min-height: 100%;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
       .mainPart {
         .backdropBlur {
-          position: absolute;
+          // position: absolute;
           width: 270px;
           height: 341px;
           left: 33px;
@@ -1606,7 +1601,7 @@
            -webkit-animation: an6 5s ease-in infinite alternate;
         }
         .media56{
-          position: absolute;
+          // position: absolute;
          left: 1%;
           width: 126px;
           top: 64%;

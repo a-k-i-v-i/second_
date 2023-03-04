@@ -2,8 +2,8 @@
 @import url("https://fonts.cdnfonts.com/css/muller-narrow");
 
 #about {
-  margin-top: 1024px;
-  padding: 110px;
+  margin-top: 829px;
+  padding: 81px;
   .container {
     width: 106%;
     .motion {
@@ -54,7 +54,7 @@
       .photos {
         display: flex;
         justify-content: space-between;
-        margin: 13px -53px;
+
         .first {
           margin: 16px 104px 0 -60px;
           &-h3 {
@@ -201,26 +201,62 @@
   }
 }
 
-@media (max-widh: 1500px) {
-}
-@media (max-widh: 1400px) {
-}
 @media (max-width: 1200px) {
   #about {
+    margin-top: 829px;
     .container {
       .motion {
-        margin: -1015px 96px;
+        margin: -790px 96px;
       }
       .founders {
         flex-direction: column;
+        .texts {
+          .texts-text {
+            width: 955px;
+          }
+        }
         .photos {
           margin: 6px 59px;
         }
       }
       .license {
         .our {
-          image {
-            margin: 0 -125px -11px;
+          .lis {
+            .licenses {
+              p {
+                width: 423px;
+                font-weight: 400;
+                font-size: 23px;
+              }
+            }
+            .study {
+              .it {
+                .it-tit {
+                  font-size: 40px;
+                }
+                .it-text {
+                  font-size: 27px;
+                }
+                .it-line {
+                  width: 408px;
+                }
+              }
+              .it {
+                .it-t {
+                  font-size: 40px;
+                }
+                .it-txt {
+                  font-size: 27px;
+                }
+                .it-ln {
+                  width: 408px;
+                }
+              }
+            }
+          }
+          img {
+            margin-right: -73px;
+            margin-top: -64px;
           }
         }
       }
@@ -230,16 +266,51 @@
 @media (max-width: 1140px) {
   #about {
     .container {
-      .license {
-        .our {
-          flex-direction: column;
+      .founders {
+        .photos {
+          .first {
+            margin: 5px 19px 0 -60px;
+          }
         }
       }
-      .logos {
-        margin-top: 0;
-
-        margin-left: -111px;
+      .license {
+        .our {
+          .lis {
+            .licenses {
+              h1 {
+                font-size: 35px;
+              }
+            }
+          }
+          img {
+            width: 545px;
+          }
+        }
       }
+      .gallery {
+        .other {
+          a {
+            padding-top: 14rem;
+            margin-right: 51px;
+          }
+        }
+        .photos {
+          h1 {
+            font-size: 39px;
+          }
+        }
+      }
+      .study {
+        .it {
+          .it-txt {
+            font-size: 23px;
+          }
+        }
+      }
+    }
+    .logos {
+      margin-top: 81px;
+      margin-left: -85px;
     }
   }
 }
@@ -247,7 +318,56 @@
   #about {
     .container {
       .motion {
-        margin: -1037px 0px;
+        margin: -770px -4px;
+      }
+      .founders {
+        .texts {
+          .texts-text {
+            width: 910px;
+          }
+        }
+      }
+      .license {
+        .our {
+          .lis {
+            .licenses {
+              h1 {
+                font-size: 29px;
+              }
+              p {
+                width: 404px;
+              }
+            }
+            .study {
+              .it {
+                .it-tit {
+                  font-size: 33px;
+                }
+                .it-text {
+                  font-size: 22px;
+                }
+                .it-line {
+                  width: 356px;
+                }
+              }
+              .it {
+                .it-t {
+                  font-size: 36px;
+                }
+                .it-txt {
+                  font-size: 22px;
+                }
+                .it-ln {
+                  margin-top: 79px;
+                  width: 368px;
+                }
+              }
+            }
+          }
+          img {
+            width: 474px;
+          }
+        }
       }
       .gallery {
         .other {
@@ -255,11 +375,142 @@
             padding-top: 4rem;
           }
         }
-        .photos{
-          .imag{
-            .grad {
-              padding: 0 9px 6px 0px;
+        .photos {
+          h1 {
+            font-size: 55px;
+            text-align: center;
+            margin-left: 274px;
           }
+          .imag {
+            .grad {
+              margin-left: -58px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 880px) {
+  #about {
+    .container {
+      .motion {
+        margin: -786px -59px;
+      }
+      .founders {
+        .texts {
+          .texts-title {
+            font-size: 60px;
+            text-align: center;
+          }
+          .texts-text {
+            width: 764px;
+          }
+        }
+        .photos {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .first {
+            img {
+              width: 443px;
+            }
+            .first-h3 {
+              font-weight: 400;
+              font-size: 35px;
+            }
+            .first-tex {
+              font-weight: 400;
+              font-size: 27px;
+              margin: -16px -2px 40px 0;
+            }
+          }
+        }
+      }
+      .license {
+        .our {
+          display: flex;
+          flex-direction: column;
+
+          .lis {
+            .licenses {
+              h1 {
+                font-size: 48px;
+                margin-left: 54px;
+              }
+              p {
+                width: 635px;
+                margin-left: -73px;
+              }
+            }
+            .study {
+              .it {
+                margin-left: -84px;
+                .it-tit {
+                  font-size: 60px;
+                }
+                .it-text {
+                  font-size: 37px;
+                }
+                .it-line {
+                  width: 615px;
+                  margin-left: -542px;
+                }
+              }
+              .it {
+                .it-t {
+                  font-size: 60px;
+                }
+
+                .it-txt {
+                  font-size: 37px;
+                  width: 535px;
+                }
+                .it-ln {
+                  width: 615px;
+                  margin-left: -691px;
+                  margin-top: 133px;
+                }
+              }
+            }
+          }
+          img {
+            width: 630px;
+            margin-top: 15px;
+            margin-left: -125px;
+          }
+        }
+      }
+      .gallery {
+        .photos {
+          .imag {
+            margin-left: 175px;
+            .grad {
+              margin-left: -138px;
+            }
+            img {
+              margin-left: -101px;
+              margin-top: 10px;
+              width: 526px;
+            }
+          }
+        }
+        .other {
+          .image {
+            .men {
+              width: 526px;
+              margin-left: 88px;
+            }
+            img {
+              width: 526px;
+              margin-left: 137px;
+              margin-top: 10px;
+            }
+          }
+          a {
+            padding-top: 5rem;
+            margin-left: 110px;
           }
         }
       }
@@ -271,19 +522,18 @@
     margin-top: 558px;
     .container {
       .motion {
-        margin: -628px -124px;
-p{
-  width: 588px;
-    font-size: 18px;
-}
+        z-index: -1;
+        margin: -628px 21px;
+
+        p {
+          margin-left: -5px;
+        }
         h1 {
           font-size: 77px;
-          width: 800px;
+          width: 540px;
           span {
-            
             font-size: 80px;
-            
-        }
+          }
         }
       }
       .founders {
@@ -307,145 +557,186 @@ p{
           h1 {
             margin: 0 0 36px 159px;
           }
-          .imag{
+          .imag {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
 
-            .grad{
-              margin: 20px 0;
+            img {
+              margin-left: -179px;
             }
-            .men{
+
+            .grad {
+              margin-left: -193px;
+            }
+            .men {
               padding: 27px 7px;
             }
           }
         }
-        .other{
-          .image{
+        .other {
+          .image {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
 
-            .men{
-
-    padding: 20px 0;
-
+            .men {
+              margin-left: 1px;
+            }
+            img {
+              margin-left: 6px;
             }
           }
         }
       }
-      .license{
-        .our{
-          .lis{
-            .licenses{
-              h1{
+      .license {
+        .our {
+          .lis {
+            .licenses {
+              h1 {
                 text-align: center;
+                margin-left: -26px;
               }
-              p{
-                width: 552px;
+              p {
+                width: 646px;
+                margin-left: -11px;
               }
             }
-            .study{
-              .it{
-                margin: 5px 38px -73px;
+            .study {
+              .it {
+                margin: 5px -8px -73px;
               }
             }
           }
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  #about {
+    .container {
+      .motion {
+        margin: -580px 1px;
+        h1 {
+          width: 506px;
+        }
+        p {
+          width: 580px;
+          margin-left: -46px;
+        }
+      }
+      .founders {
+        .texts {
+          .texts-text {
+            width: 516px;
+          }
+        }
+        .photos {
+          margin: -8px 105px;
+          .first-h3 {
+            font-size: 20px;
+          }
+        }
+      }
+      .gallery {
+        .photos {
+          .imag {
+            .grad {
+              margin-left: -253px;
+            }
+            img {
+              margin-left: -256px;
+            }
+          }
+        }
+        .other {
+          .image {
+            .men {
+              margin-left: -45px;
+            }
+            img {
+              margin-left: -32px;
+            }
+          }
+          a {
+            margin-left: -5px;
+          }
+        }
+      }
+    }
+    .logos {
+      .images {
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-top: 10px; */
+        justify-content: space-around;
+        padding: 60px 0;
       }
     }
   }
 }
 @media (max-width: 576px) {
-  #about{
-    .container{
-      .motion{
+  #about {
+    .container {
+      .motion {
         margin: -609px -110px;
-        h1{
+        h1 {
           width: 561px;
-      margin-left: 8px;
-      span {
-        font-size: 78px;
-    } 
-        }
-        p{
-          width: 356px;
-            font-size: 19px;
-        }
-      }
-      .gallery{
-       
-          .photos{
-            h1 {
-              margin: 0 0 36px 117px;
+          margin-left: 8px;
+          span {
+            font-size: 78px;
           }
-        .imag{
-          padding: 2px;
-        
-          .grad {
-            margin: 21px -50px;
         }
-        }
+        p {
+          width: 356px;
+          font-size: 19px;
         }
       }
-      .founders{
-        .photos{
+      .gallery {
+        .photos {
+          h1 {
+            margin: 0 0 36px 117px;
+          }
+          .imag {
+            padding: 2px;
+
+            .grad {
+              margin: 21px -50px;
+            }
+          }
+        }
+      }
+      .founders {
+        .photos {
           .first {
             margin: 27px 102px 0 -143px;
+          }
         }
-        }
-        .texts{
+        .texts {
           .texts-text {
             width: 439px;
-        }
-        }
-      }
-      .license{
-        .our{
-         .lis{
-          .study{
-            .it {
-              margin: 5px -50px -84px;
-          }
-          }
-          .licenses{
-            p{
-              width: 424px;
-          }
-          }
-         }
-            img{
-              width: 362%;
-            
           }
         }
       }
-    }
-  }
-}
-@media (max-width:660px) {
-  #about{
-    .container{
-      .motion{
-        h1 {
-          font-size: 70px;
-          width: 695px;
-      }
-      p{
-        width: 463px; 
-      }
-      }
-      .founders{
-        .texts{
-          .texts-text {
-            width: 516px;
-        } 
-        }
-        .photos{
-          margin: -8px 105px;
-          .first-h3 {
-            font-size: 20px;
-        }
+      .license {
+        .our {
+          .lis {
+            .study {
+              .it {
+                margin: 5px -50px -84px;
+              }
+            }
+            .licenses {
+              p {
+                width: 424px;
+              }
+            }
+          }
+          img {
+            width: 362%;
+          }
         }
       }
     }
@@ -453,272 +744,384 @@ p{
 }
 
 @media (max-width: 450px) {
-  #about{
-    margin-top: 539px;
-  .container{
-    .motion{
-      h1 {
-        font-size: 57px;
-        width: 416px;
-        line-height: 83px;
-        span{
+  #about {
+    margin-top: 329px;
+    .container {
+      .motion {
+        margin: -381px -82px;
+        h1 {
           font-size: 57px;
-        }
-    }
-    p{
-      font-size: 16px;
-      margin: -43px 110px;
-      width: 280px;
-    }
-    }
-    .founders{
-      .texts{
-        margin: 0 -49px;
-        .texts-text {
-          font-size: 20px;
-          width: 338px;
-      }
-      }
-      .photos{
-        .first{
-          margin: 27px 84px 0 -166px;
-      }
-      .gallery{
-        margin: 0 1px 0 -52px;
-      }
-      }
-    }
-    .license{
-      .our{
-        img {
-          width: 9000%;
-      }
-        .lis{
-          .study{
-            .it {
-              margin: 5px 0px -92px;
+          width: 416px;
+          line-height: 83px;
+          span {
+            font-size: 57px;
           }
-          .it-line {
-            width: 379px;
-            margin: 102px -414px;
         }
-        .it-ln {
-          width: 373px;
-          margin: 127px -430px;
+        p {
+          font-size: 15px;
+          margin: -43px 48px;
+          width: 397px;
+        }
       }
-            .it-text{
-              width: 242px;
-              }
-              .it-txt{
-                width: 270px;
-                font-size: 23px;
-              
+      .founders {
+        .texts {
+          margin: 0 -49px;
+          .texts-text {
+            font-size: 20px;
+            width: 415px;
+          }
+        }
+        .photos {
+          .first {
+            width: 136px;
+            margin-left: -136px;
+
+            img {
+              width: 364px;
+            }
+          }
+          .gallery {
+            margin: 0 1px 0 -52px;
+          }
+        }
+      }
+      .license {
+        .our {
+          img {
+            width: 515px;
+            margin-left: 36px;
+          }
+          .lis {
+            .study {
+              .it {
+                margin: 5px -13px -84px;
+                .it-tit {
+                  font-size: 43px;
                 }
+                .it-text {
+                  font-size: 29px;
+                }
+                .it-line {
+                  width: 367px;
+                  margin-left: -507px;
+                }
+              }
+              .it {
+                margin: 5px -13px -84px;
+                .it-t {
+                  font-size: 43px;
+                }
+                .it-txt {
+                  font-size: 23px;
+                  width: 335px;
+                }
+                .it-ln {
+                  width: 368px;
+                  margin-left: -458px;
+                  margin-top: 105px;
+                }
+              }
+            }
+            .licenses {
+              p {
+                width: 363px;
+              }
+            }
           }
-          .licenses{
-            p{
-              width: 363px;
+          img {
+            width: 394px;
+            margin-left: -80px;
           }
+        }
+      }
+      .gallery {
+        .photos {
+          h1 {
+            margin: 0 0 36px 41px;
+          }
+          .imag {
+            margin: 0 -69px;
+
+            .grad {
+              margin-left: -77px;
+              width: 343px;
+            }
+            img {
+              margin-left: -19px;
+              width: 343px;
+            }
+          }
+        }
+        .other {
+          .image {
+            .men {
+              margin-left: -33px;
+              margin-top: 25px;
+              width: 345px;
+            }
+            img {
+              margin-left: -33px;
+              width: 345px;
+            }
+          }
+          a {
+            margin-left: -23px;
+            margin-top: -48px;
           }
         }
       }
     }
-    .gallery{
-      .photos{
-        h1{
-          margin: 0 0 36px 41px;
+    .logos {
+      .images {
+        padding: 49px 0 0 0;
+        .images1 {
+          margin-bottom: 13px;
+          margin-top: -21px;
         }
-        .imag {
-          margin: 0 -69px;
-     
-      }
-      }
-      .other{
-        .image{
-          margin: -18px -76px;
+        .images2 {
+          margin-bottom: 46px;
+          margin-top: -21px;
+        }
+        .images3 {
+          margin-bottom: 13px;
+          margin-top: -21px;
         }
       }
     }
-  }
   }
 }
-@media (max-width:400px) {
+@media (max-width: 400px) {
   #about .container .founders .photos {
     margin: -11px 69px;
-}
-#about .container .gallery .photos .imag {
-  margin: 0 -96px;
-}
-#about .container .gallery .other .image {
-  margin: -18px -108px;
-}
-#about .container .gallery .other a{
-  margin-right: 0;
-}
-#about .container .gallery .photos h1 {
-  margin: 0 0 36px 15px;
-} 
-#about .container .license {
-  padding: 106px;
-} 
-#about .container .license .our .lis .licenses p {
-  width: 308px;
-}
-#about .container .license .our .lis .study .it-text {
-  width: 377px;
-  font-size: 25px;
-  padding: 16px 21px;
-}
-#about .container .license .our .lis .study .it-txt {
-  width: 230px;
-  font-size: 19px;
-}
-#about .container .license .our .lis .study .it-txt {
-  width: 329px;
-  padding: 17px 16px;
-}
-#about .container .license .our .lis .study .it-line {
-  width: 246px;
-  margin: 102px -474px;
-}
-#about .container .license .our .lis .study .it-ln {
-  width: 269px;
-  margin: 127px -429px;
-} 
-}
-@media (max-width: 376px) {
-  #about .container .motion p {
-    font-size: 16px;
-    margin: -29px 68px;
-}
-#about .container .motion h1 {
-  font-size: 46px;
-  width: 358px;
-  line-height: 73px;
-}
-#about .container .motion h1 span {
-  font-size: 53px;
-}
-#about .container .founders .texts .texts-text {
-  font-size: 16px;
-  width: 299px;
-}
-#about{
-  .container{
-   .imag{
-    .grad{
-      width: 325px;
-    }
-  img{
-    width: 325px;
+  }
+  #about .container .gallery .photos .imag {
+    margin: 0 -96px;
+  }
+  #about .container .gallery .other .image {
+    margin: -18px -108px;
+  }
+  #about .container .gallery .other a {
+    margin-right: 0;
+  }
+  #about .container .gallery .photos h1 {
+    margin: 0 0 36px 15px;
+  }
+  #about .container .license {
+    padding: 106px;
+  }
+  #about .container .license .our .lis .licenses p {
+    width: 308px;
+  }
+  #about .container .license .our .lis .study .it-text {
+    width: 377px;
+    font-size: 25px;
+    padding: 16px 21px;
+  }
+  #about .container .license .our .lis .study .it-txt {
+    width: 230px;
+    font-size: 19px;
+  }
+  #about .container .license .our .lis .study .it-txt {
+    width: 329px;
+    padding: 17px 16px;
+  }
+  #about .container .license .our .lis .study .it-line {
+    width: 246px;
+    margin: 102px -474px;
+  }
+  #about .container .license .our .lis .study .it-ln {
+    width: 269px;
+    margin: 127px -429px;
   }
 }
-  .gallery{
-    .other{
-      .image{
-        .men{
-          width: 325px;
+
+@media (max-width: 376px) {
+  #about {
+    .container {
+      .motion {
+        h1 {
+          font-size: 57px;
+          width: 360px;
+          line-height: 77px;
         }
-        img{
-          width: 325px; 
+        p {
+          font-size: 16px;
+          width: 285px;
+          margin: -31px 36px;
+          text-align: center;
+        }
+      }
+      .founders {
+        .texts {
+          .texts-title {
+            font-size: 52px;
+            margin-right: 25px;
+          }
+          .texts-text {
+            font-size: 15px;
+            width: 339px;
+          }
+        }
+        .photos {
+          .first {
+            width: 12px;
+            img {
+              width: 238px;
+            }
+            .first-h3 {
+              font-weight: 400;
+              font-size: 25px;
+              width: 264px;
+            }
+            .first-tex {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .license {
+        .our {
+          .lis {
+            .licenses {
+              h1 {
+                margin-left: -9px;
+                font-size: 39px;
+              }
+              p {
+                width: 298px;
+                font-size: 15px;
+                text-align: center;
+              }
+            }
+            .study {
+              .it {
+                .it-tit {
+                  font-size: 33px;
+                }
+                .it-text {
+                  font-size: 24px;
+                }
+              }
+              .it {
+                .it-t {
+                  font-size: 33px;
+                }
+                .it-txt {
+                  font-size: 19px;
+                  margin-top: 3px;
+                }
+              }
+            }
+          }
+          img {
+            width: 318px;
+          }
+        }
+      }
+      .gallery {
+        .photos {
+          h1 {
+            margin: 0 0 13px 26px;
+            font-size: 39px;
+          }
+          .imag {
+            .grad{
+              width: 284px;
+            }
+            img {
+              width: 284px;
+            }
+          }
+        }
+        .other{
+          .image{
+            .men{
+              width: 284px;
+            }
+            img{
+              width: 284px;
+            }
+          }
+        }
+      }
+    }
+    .logos{
+      .images{
+        .images1{
+          margin-bottom: 50px;
+          margin-top: -21px;
         }
       }
     }
   }
-  #about .container .license .our .lis .study .it {
-    margin: 5px -26px -101px;
-}
- 
-  }
-}
-#about .container .founders .photos .first img{
-width: 320px;
-}
-#about .container .founders .photos {
-  margin: -11px 90px;
-}
-#about .container .license .our .lis .licenses h1 {
-
-  font-size: 37px;
-
-}
-#about .container .license .our .lis .study .it-txt {
-  width: 214px;
-  padding: 17px 18px;
-}
-#about .container .license .our .lis .study .it-ln {
-  margin: 127px -316px;
-}
-
 }
 @media (max-width: 320px) {
   #about {
     .container {
       .motion {
-        margin: -1047px -31px;
+        margin: -348px -96px;
       }
     }
   }
-  #about .container .founders .texts .texts-text {
-    font-size: 16px;
-    width: 242px;
-}
-#about .container .founders .photos .first img {
-  width: 258px;
-}
-#about .container .license .our .lis .study .it {
-  margin: 5px -20px -104px;
-}
-#about .container .gallery .photos h1 {
-  margin: 0 0 12px -14px;
-}
-#about .container .imag img {
-  width: 267px;
-}
-#about .container .gallery .other .image .men {
-  width: 267px;
-}
-#about .container .gallery .other .image img {
-  width: 276px;
-}
-#about .container .imag .grad {
-  width: 274px;
-}
-#about .container .license .our .lis .licenses h1 {
-  font-size: 25px;
-  text-align: start;
-} 
-#about .container .license {
-  padding: 51px;
-}
-#about .container .license .our img {
-  width: 7283%;
-}
-#about .container .license .our .lis .study .it {
-  margin: -4px -4px -104px;
-}
-#about .container .motion {
-margin:  0 0;}
-#about .container .motion {
-  margin: -605px -124px;
-}
-#about .container .motion p {
-  font-size: 12px;
-  margin: -9px 75px;
-  width: 212px;
-}
-#about .container .motion h1 {
-  font-size: 36px;
-  width: 293px;
-  line-height: 55px;
-}
-#about .container .motion h1 span {
-  font-size: 44px;
-}
-#about .container .motion h1 {
-  font-size: 36px;
-  width: 293px;
-  padding-left: 19px;
-  line-height: 55px;
-}
+  // #about .container .founders .texts .texts-text {
+  //   font-size: 16px;
+  //   width: 242px;
+  // }
+  #about .container .founders .photos .first img {
+    width: 258px;
+  }
+  #about .container .license .our .lis .study .it {
+    margin: 5px -20px -104px;
+  }
+  #about .container .gallery .photos h1 {
+    margin: 0 0 12px -14px;
+  }
+  #about .container .imag img {
+    width: 267px;
+  }
+  #about .container .gallery .other .image .men {
+    width: 267px;
+  }
+  #about .container .gallery .other .image img {
+    width: 276px;
+  }
+  #about .container .imag .grad {
+    width: 274px;
+  }
+  #about .container .license .our .lis .licenses h1 {
+    font-size: 25px;
+    text-align: start;
+  }
+  #about .container .license {
+    padding: 51px;
+  }
+ 
+  #about .container .license .our .lis .study .it {
+    margin: -4px -4px -104px;
+  }
+  #about .container .motion {
+    margin: 0 0;
+  }
+  #about .container .motion {
+    margin: -605px -124px;
+  }
+  #about .container .motion p {
+    font-size: 12px;
+    margin: -9px 75px;
+    width: 212px;
+  }
+  #about .container .motion h1 {
+    font-size: 36px;
+    width: 293px;
+    line-height: 55px;
+  }
+  #about .container .motion h1 span {
+    font-size: 44px;
+  }
+  #about .container .motion h1 {
+    font-size: 36px;
+    width: 293px;
+    padding-left: 19px;
+    line-height: 55px;
+  }
 }
