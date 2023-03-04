@@ -1,0 +1,36 @@
+{
+  "mainPage": {
+    "main": "MOTION WEB",
+    "main2": " IT",
+    "main3":"ACADEMY"
+  },
+  "main" : {
+    "ОНАС" : "About Us\n",
+    "titles": "Motion Web IT academy is an international educational project that trains IT practitioners.",
+    "titles2": "Thanks to our continuous development, we have developed effective programs for the training of IT specialists. We managed to combine the best practices of offline and online education and thus achieve high results.\n",
+    "link": "",
+    "userFront": "Front-end developer is a specialist who creates user interfaces\n",
+    "userUi": "UX / UI design is the process of creating interactive, user-friendly interfaces\n",
+    "userBac": "Backend developer is a specialist who is responsible for the internal and computational logic of a website",
+    "webLeft": "Why MOTION WEB IT ACADEMY is the best choice for learning?\n",
+    "webRight": "Training from zero to Junior\n",
+    "webRight2": "In the course, you will learn how to create web service interfaces using programming languages \u200B\u200Band additional technologies. You will be able to develop task planners, instant messengers, online stores\n",
+    "webOpen": "Our company provides Open Space for our students, where you can comfortably study, make friends with other students and develop communication skills\n",
+    "webEnOne": "English",
+    "webEnTwo":"At the moment, specialists who speak English are more in demand on the market, as this makes it possible to bring the product to the world stage. That's why we provide our students with FREE language courses\n",
+    "webClub": "IT club\n",
+    "webClubTwo":"IT Club is a bridge between the course and real work. Analyzing courses in Bishkek, we decided to open a club that will help students prepare for real projects. Participants without completing the course will be able to understand how to work in a team, learn how to present their work and understand what problems there are at the development stage\n",
+    "links": "",
+    "accordionsH1":"FAQ",
+    "accordionTitle": "",
+    "accordionTitleTwo": "",
+    "accordionTitleThee": "",
+    "accordionTitleFour": "",
+    "accordionTitleFive": "",
+    "accordionTitleSix": "",
+    "serviceH1": "Leave an application for training or get advice on the course",
+    "serviceP": "The manager will contact you within 30 minutes and answer all your questions.\n",
+    "serviceSpan": "I agree to the processing of personal data\n",
+    "serviceBtn": "btn"
+  }
+}
