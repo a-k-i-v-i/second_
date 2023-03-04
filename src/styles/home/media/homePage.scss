@@ -1,0 +1,537 @@
+@media (max-width: 1600px) {
+  .container {
+    width: 90%;
+  }
+  #web {
+    padding: 0 0 817px 0;
+  }
+  #bac {
+    padding: 0 0 411px 0;
+  }
+  #swiper {
+    padding: 144px 0 145px 0;
+  }
+  #service {
+    padding: 100px 0;
+  }
+  #lesson {
+    padding: 359px 0;
+  }
+}
+
+@media (max-width: 1500px) {
+  #user {
+    padding: 296px 0 !important;
+  }
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  #title .main--btn {
+    margin: -355px 0 16px 353px !important;
+  }
+  #title .main--title {
+    margin-left: 373px !important;
+  }
+  #user .user--one__block {
+    width: 262px !important;
+  }
+  #user .user--one__top {
+    width: 301px !important;
+  }
+  #user {
+    padding: 186px 0 490px 0 !important;
+  }
+
+  #user .user--one__block--button button {
+    width: 254px !important;
+  }
+  #user .user--one__block {
+    height: auto !important;
+  }
+  #lesson .lesson--block {
+    width: 558px !important;
+  }
+  #lesson .lesson h2 {
+    font-size: 34px !important;
+  }
+  #lesson .lesson h1 {
+    font-size: 30px !important;
+  }
+  #lesson .lesson p {
+    line-height: 140%;
+  }
+  #lesson .lesson--block button {
+    width: 251px;
+  }
+  #web .nav--right__one {
+    width: 90% !important;
+  }
+  #web .nav--right__two {
+    width: 90% !important;
+  }
+  #web .nav--right__one--right {
+    padding: 10px;
+
+    p {
+      width: 595px !important;
+      font-size: 19px;
+    }
+  }
+  #web .nav--left h1 {
+    width: 319px !important;
+  }
+}
+
+@media (max-width: 1140px) {
+  #title .main--h1 {
+    font-size: 98px !important;
+    line-height: 100px !important;
+  }
+  #title .main--h1--span {
+    font-size: 99px !important;
+  }
+  #web {
+    .nav--right {
+      margin: 0 40px !important;
+    }
+  }
+  #swiper .swiper h1 {
+    margin: 24px 0 -35px -36px !important;
+  }
+  #service .service--right input {
+    width: 90% !important;
+  }
+  #service .service--right button {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  #title .main--btn {
+    margin: -355px 0 16px 272px !important;
+  }
+  #title .main--title {
+    margin-left: 286px !important;
+  }
+  #title .block h1 {
+    font-size: 58px !important;
+  }
+  #user .user {
+    display: flex;
+    align-items: center;
+    justify-content: space-around !important;
+    flex-wrap: wrap !important;
+    align-content: center;
+  }
+  #user {
+    padding: 186px 0 1135px 0 !important;
+  }
+  #user .user--one {
+    margin: 43px !important;
+  }
+  #lesson .lesson--block button {
+    width: 224px !important;
+  }
+  #lesson .lesson--block {
+    margin: 16px !important;
+  }
+  #web .nav--right__one--right p {
+    width: 421px !important;
+    font-size: 19px;
+  }
+  #web .nav--right__one--right p {
+    font-size: 17px !important;
+  }
+  #swiper .swiper h1 {
+    margin: 15px 0 31px -36px !important;
+  }
+  #service .service--left h1 {
+    width: 443px !important;
+    font-size: 29px !important;
+  }
+  #web .nav--right__one {
+    height: auto !important;
+  }
+}
+
+@media (max-width: 880px) {
+  #title .main--btn {
+    margin: -355px 0 16px 219px !important;
+  }
+  #title .main--title {
+    margin-left: 233px !important;
+  }
+  #user {
+    padding: 186px 0 1235px 0 !important;
+  }
+  #lesson .lesson {
+    flex-direction: column !important;
+  }
+  #web .nav--left h1 {
+    width: 250px !important;
+    font-size: 28px !important;
+  }
+  #bac .bac img {
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #title .main--h1 {
+    font-size: 71px !important;
+    line-height: 103px !important;
+  }
+  #title .main--h1--span {
+    font-size: 74px !important;
+  }
+  #title .main--title {
+    margin-left: 171px !important;
+  }
+  #title .main--btn {
+    margin: -355px 0 16px 155px !important;
+  }
+  #title .block h1 {
+    font-size: 49px !important;
+  }
+  #user {
+    padding: 186px 0 2100px 0 !important;
+  }
+  #web .nav {
+    flex-direction: column !important;
+  }
+  #web .nav--right__one {
+    width: 100% !important;
+  }
+  #web .nav--left h1 {
+    width: 555px !important;
+    text-align: center !important;
+    font-size: 28px !important;
+  }
+  #web {
+    padding: 0 0 974px 0;
+  }
+  #service .service {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  #service .service--left h1 {
+    width: 404px !important;
+    font-size: 29px !important;
+  }
+}
+
+@media (max-width: 660px) {
+  #title .main--title {
+    margin-left: 120px !important;
+  }
+  #title .main--btn {
+    margin: -358px 0 16px 108px !important;
+  }
+  #title .block {
+    border-radius: 49px !important;
+  }
+  #web .nav--right__one {
+    width: 95% !important;
+  }
+  #swiper .swiper h1 {
+    margin: 15px 0 34px -5px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #title .main--h1 {
+    font-size: 54px !important;
+    line-height: 75px !important;
+  }
+  #title .main--h1--span {
+    font-size: 61px !important;
+  }
+  #title .main--title {
+    margin-left: 73px !important;
+  }
+  #title .main--btn {
+    padding: 0 0 0 81px !important;
+    width: 308px !important;
+  }
+  #title .main--btn {
+    margin: -358px 0 16px 84px !important;
+  }
+  #title .title {
+    flex-direction: column !important;
+  }
+  #title .block h1 {
+    font-size: 41px !important;
+  }
+  #title .block p {
+    font-size: 19px !important;
+  }
+  #title .block {
+    height: 193px;
+  }
+  #lesson .lesson--block {
+    width: 90% !important;
+  }
+  #web .nav--right__one {
+    width: 90% !important;
+  }
+  #web .nav--right__one--right p {
+    width: 323px !important;
+  }
+  #web {
+    padding: 0 0 1051px 0;
+  }
+  #title .block {
+    justify-content: space-between !important;
+    width: 60% !important;
+    height: 343px !important;
+    border: 2px solid #ec3025;
+    flex-wrap: wrap !important;
+    padding: 0 69px !important;
+  }
+  #title .block p {
+    font-size: 16px !important;
+    margin: 8px !important;
+  }
+  #lesson .lesson--block {
+    height: auto !important;
+  }
+  #lesson .lesson--block {
+    height: auto !important;
+    padding: 20px !important;
+    flex-direction: column !important;
+  }
+  #web .nav--left h1 {
+    width: 266px !important;
+    text-align: center !important;
+    font-size: 30px !important;
+  }
+  #web .nav--right__one--right p {
+    width: 241px !important;
+  }
+  #web {
+    padding: 0 0 1476px 0;
+  }
+  #web .nav--right__two {
+    height: auto;
+  }
+  .slick-slider {
+    left: 0 !important;
+  }
+}
+
+@media (max-width: 450px) {
+  section .scroll div {
+    font-size: 2rem !important;
+  }
+}
+
+@media (max-width: 376px) {
+  #title .block {
+    margin: 57px 0 !important;
+  }
+  #user {
+    padding: 100px 0 0 0 !important;
+  }
+  #title .main--h1 {
+    margin-top: -789px !important;
+  }
+  #title .main--h1 {
+    font-size: 35px !important;
+    line-height: 75px !important;
+  }
+  #title .main--h1--span {
+    font-size: 41px !important;
+  }
+  #title .main--title {
+    margin-top: -624px !important;
+    margin-left: 33px !important;
+  }
+  #title .main--title {
+    font-size: 13px !important;
+  }
+  #title .main--btn {
+    margin: -562px 0 16px -2px !important;
+    //padding:0;
+  }
+  #title .main--btn {
+    padding: 0 0 0 25px !important;
+    width: 161px !important;
+
+  }
+  #title .main--btn {
+    margin: -559px 0 16px 68px !important;
+  }
+  #title .main--btn {
+    font-size: 16px !important;
+  }
+  #title {
+    margin-top: 516px !important;
+  }
+  #title .title--text p {
+    font-size: 15px !important;
+  }
+  #title .block {
+    width: 76% !important;
+    padding: 0 38px !important;
+  }
+  #web .nav--right__one--right h1 {
+    font-size: 17px !important;
+  }
+  #web .nav--right__one--right p {
+    width: 155px !important;
+  }
+  #web .nav--right__one--right p {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  #user {
+    padding: 100px 0 195px 0 !important;
+  }
+  #web {
+    padding: 0 0 105px 0 !important;
+  }
+  #accordions .accordions {
+    flex-direction: column !important;
+  }
+  .accordionHeading {
+    width: 90% !important;
+  }
+  .accordionHeading p {
+    font-size: 14px !important;
+  }
+  #lesson {
+    padding: 0 !important;
+  }
+  #user .user--one__block {
+    width: 201px !important;
+  }
+  #user .user--one__top {
+    width: 239px !important;
+  }
+  section {
+    height: auto !important;
+  }
+  #user .user--one__block--button button {
+    width: 195px !important;
+  }
+
+  #title .main--btn {
+    display: none !important;
+  }
+  #title .title h1 {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    color: #EC3025 !important;
+  }
+  #title .title--text p {
+    font-size: 14px !important;
+  }
+  #title .title--text {
+    width: 100% !important;
+  }
+  #title .title--text a {
+    font-size: 13px !important;
+  }
+  #title .block {
+    width: 85% !important;
+    padding: 0 15px !important;
+    align-content: center !important;
+    height: 199px !important;
+    margin: 22px 0 !important;
+  }
+  #title .block h1 {
+    font-size: 32px !important;
+    line-height: 0 !important;
+  }
+  #lesson .lesson--block {
+    border-radius: 10px !important;
+    width: 90% !important;
+
+    h1 {
+      font-size: 24px !important;
+    }
+
+    p {
+      font-size: 12px !important;
+      line-height: 0;
+    }
+
+    h2 {
+      font-size: 20px !important;
+    }
+  }
+  #web .nav--left h1 {
+    width: 215px !important;
+    font-size: 20px !important;
+  }
+  #web .nav--right__one--left {
+    img {
+      width: 24px;
+    }
+  }
+  #web .nav {
+    align-items: center !important;
+  }
+  #web .nav--right__one--right h1 {
+    font-size: 14px !important;
+  }
+  #web .nav--right__one--right p {
+    font-size: 12px !important;
+  }
+  #web {
+    padding: 0 0 1058px 0;
+  }
+  #bac .bac {
+    h1 {
+      font-size: 20px !important;
+      line-height: 0 !important;
+    }
+
+    h2 {
+      font-size: 20px !important;
+    }
+  }
+  #bac {
+    padding: 0 0 212px 0 !important;
+  }
+  #swiper .swiper h1 {
+    font-size: 20px !important;
+  }
+  #service .service--left {
+    h1 {
+      font-size: 20px !important;
+      width: 314px !important;
+    }
+    p {
+      font-size: 10px !important;
+      width: 314px !important;
+    }
+  }
+  #service .service--right input {
+    width: 80% !important;
+  }
+  #service .service--right button {
+    width: 300px !important;
+    font-size: 14px !important;
+  }
+  .users {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
