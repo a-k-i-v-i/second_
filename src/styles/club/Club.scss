@@ -1,0 +1,855 @@
+
+
+
+#club{
+    margin-top: 1000px;
+  .container{
+    margin: 0 auto;
+    .club{
+      position: absolute;
+      margin: -899px 317px;
+      h1{
+        text-align: center;
+        width: 645px;
+        font-weight: 800;
+        font-size: 128px;
+        color: #ffffff;
+        span{
+          color:#EC3025;
+        }
+      }
+      p{
+        margin: -83px 94px;
+        font-weight: 500;
+        font-size: 19px;
+        color: #ffffff;
+      }
+    }
+    .why{
+      .it{
+        display: flex;
+        justify-content: space-between;
+        h2{
+          width: 210px;
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 40px;
+          color: #020202;
+          span{
+            color: #EC3025;
+          }
+        }
+        p{
+          width: 626px;
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 130%;
+          color: rgba(27, 27, 27, 0.8);
+        }
+      }
+    }
+    .li{
+      padding: 130px 0;
+      .line{
+        border: 2px solid #EC3025;
+        border-radius: 125px;
+        width: 1216px;
+        height: 229px;
+        .three{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          .month{
+            h2{
+              font-weight: 500;
+              font-size: 64px;
+              line-height: 64px;
+              color: #EC3025;
+            }
+            p{
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 29px;
+              display: flex;
+              align-items: center;
+              color: #000000;
+              margin: -46px -8px -4px -21px;
+            }
+          }
+          .talking{
+            h2{
+              font-size: 64px;
+              line-height: 64px;
+              display: flex;
+              align-items: center;
+              color: #EC3025;
+            }
+            p{
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 29px;
+              display: flex;
+              align-items: center;
+              color: #000000;
+              margin: -30px 98px -9px;
+            }
+          }
+        }
+      }
+    }
+    .team{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #EFEFEF;
+      backdrop-filter: blur(20px);
+
+      h1{
+        font-weight: 400;
+        font-size: 96px;
+        color: #EC3025;
+        padding-left: 34px;
+      }
+      .com{
+        margin-left:-70px;
+        .group1{
+          position: relative;
+          margin: 0 -109px 0 0;
+          z-index: -20;
+        }
+        .group1{
+          position: relative;
+          padding: 0 0 0 147px;
+        }
+        .blacks{
+
+
+&-black1{
+            position: absolute;
+            margin: -381px 0 0 -70px;
+          }
+          &-black2{
+            position: absolute;
+            z-index: 99;
+            margin: -266px 1px 1px -151px;
+          }
+          &-black6{
+            position: absolute;
+            width: 123px;
+            margin: -203px 1px 1px 51px;
+          }
+          &-black3{
+            position: absolute;
+            width: 196px;
+            z-index: -45;
+            margin: -457px 2px 0px 692px;
+          }
+          &-black25{
+            position: absolute;
+            width: 115px;
+            margin: -177px 0 4px 828px;
+          }
+          &-black5{
+            position: absolute;
+            width: 169px;
+            z-index: 99;
+            margin: -261px 0 5px 901px;
+          }
+          &-black7{
+            position: absolute;
+            width: 66px;
+            margin: -228px 1px 9px 786px;
+          }
+          &-black8{
+            position: absolute;
+            margin: -357px 0 0 49px;
+          }
+          &-black4{
+            position: absolute;
+            margin: -513px 0 0 906px;
+          }
+        }
+        .blur{
+          position: absolute;
+          width: 1119px;
+          height: 336px;
+          left: 53px;
+          top: 406px;
+          background: linear-gradient(289.3deg, rgba(19, 19, 19, 0.3) 17.11%, rgba(28, 28, 28, 0.261) 100%);
+          backdrop-filter: blur(7.5px);
+          /* Note: backdrop-filter has minimal browser support */
+
+          border-radius: 20px;
+        }
+        .tex{
+          text-align: center;
+          position: absolute;
+          margin: -371px 0 0 250px;
+          line-height: 28px;
+          padding: 25px 0;
+        .front{
+          font-weight: 500;
+          font-size: 64px;
+          color: #FFFFFF;
+        }
+          .design{
+            font-weight: 500;
+            font-size: 64px;
+            color: #FFFFFF;
+          }
+          .back{
+            font-weight: 500;
+            font-size: 64px;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+    .develop{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 214px;
+      .pro{
+        h2{
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 36px;
+          width: 210px;
+          color: #EC3025;
+        }
+      }
+      .blocks{
+        .block{
+          width: 800px;
+          height: 182px;
+          left: 530px;
+          top: 2518px;
+          background: #EFEFEF;
+          border-radius: 25px;
+          .work{
+            margin: 31px;
+            display: flex;
+            justify-content: space-around;
+            .smail{
+              margin: 0 0 113px;
+            }
+            .texts{
+              h3{
+                font-size: 24px;
+                color: #000000;
+                margin: 16px 0;
+              }
+              &-p{
+                width:634px;
+                color: rgba(27, 27, 27, 0.8);
+                font-size: 19px;
+                margin: -7px -1px 78px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .about{
+      padding-top: 80px;
+      .get{
+        .extension{
+          display: flex;
+          justify-content: space-around;
+          //flex-wrap: wrap;
+          //flex-direction: row-reverse;
+          //margin: -13px 4px 3px;
+          h2{
+            color: #EC3025;
+            font-weight: 500;
+            font-size: 40px;
+            width: 176px;
+            margin: 108px 0;
+          }
+         .di{
+           display: flex;
+           justify-content: space-between;
+           padding-left: 190px;
+           margin: 64px -28px;
+           .block{
+             padding: 10px;
+             width: 341px;
+             height: 296px;
+             left: 573px;
+             top: 3596px;
+             background: linear-gradient(180deg, #EDF1FF 0%, rgba(203, 214, 255, 0.65) 100%);
+             border-radius: 30px;
+             margin: 32px;
+             .discussions{
+               padding: 20px 13px;
+             }
+             .books{
+
+
+padding: 21px 64px;
+             }
+             p{
+               font-weight: 400;
+               font-size: 20px;
+               text-align: center;
+               color: #1B1B1B;
+             }
+           }
+         }
+
+        }
+         .all{
+           display: flex;
+           justify-content: space-around;
+           margin: 10px 0;
+           .block{
+             margin: 17px;
+             padding: 10px;
+             width: 341px;
+             height: 296px;
+             left: 573px;
+             top: 3596px;
+             background: linear-gradient(180deg, #EDF1FF 0%, rgba(203, 214, 255, 0.65) 100%);
+             border-radius: 30px;
+             .discussions{
+               padding: 15px 63px;
+
+             }
+             .laptop{
+               padding: 59px 40px;
+             }
+             p{
+               font-weight: 400;
+               font-size: 20px;
+               text-align: center;
+               color: #1B1B1B;
+             }
+            .cloud{
+              padding: 91px 19px;
+              margin: -1px -29px -1px 3px;
+            }
+             .joy{
+               padding: 22px 0;
+             }
+         }
+        }
+
+      }
+    }
+  }
+}
+
+@media (max-width:1500px) {
+  
+}
+@media (max-width:1400px) {
+  
+}
+@media (max-width:1200px) {
+  
+
+   #club{
+    .container{
+      width: 90%;
+      .club{
+        margin: -881px 228px;
+      } h1 {
+
+     
+      
+        p {
+          margin: -45px 72px 49px -169px;
+        
+      }
+    }
+ 
+    .li{
+      padding: 136px 270px;
+      .line{
+        width: 1008px;
+        height: 229px;
+        margin-left: -240px;
+    
+    }
+   }
+   .why{
+    .it {
+    
+      flex-direction: column;
+  }
+   } 
+   .develop {
+
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    .pro h2 {
+    
+      width: 743px;
+  }
+}
+    }}
+    #club .container .about .get .all .block .joy {
+      margin: -306px 79px 28px 155px;
+  }
+  #club .container .team {
+    padding-left: 0px;
+    .com{
+      .blur{
+         margin-left: -102px;
+      }
+      .blacks-black4{
+          margin: -537px 0 0 836px;
+      }
+      .blacks-black5{
+         margin: -271px 0 5px 826px;
+      }
+      .blacks-black2{
+        margin: -244px -127px 0;
+
+      }
+    }
+    }
+     }
+    
+
+@media (max-width:1140px) {
+#club{
+  .container{
+    .about .get .extension {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      h2 {
+        width: 661px;
+        margin: -15px 0;
+    }
+  }
+  }
+}
+}
+@media (max-width:992px) {
+  #club{
+    .container{
+      .club{
+        h1{
+          margin-left: -80px;
+        }
+      }
+        .li{
+      .line{
+        width: 855px;
+        height: 192px;
+    }
+    }
+    .about{
+      .get{
+        .extension {
+          h2 {
+            width: 661px;
+            margin: 0px 86px;
+        }
+        .di {
+
+          padding-left: 80px;
+          flex-wrap: wrap;
+      }
+        }
+        
+       
+        .all {
+          flex-wrap: wrap;
+      }
+      }
+    }  
+  .team{
+    .com{
+      .blur{
+          width: 863px;
+          height: 316px;
+          left: 122px;
+          top: 406px;
+      }
+      .blacks-black4 {
+          margin: -535px 4px 0 807px;
+          width: 100px;
+      }
+      .blacks-black1 {
+        margin: -421px 0 0 0px;
+    }
+    .blacks-black5{
+      margin: -253px 0 0 729px;
+    }
+    .blacks-black2{
+      margin: -267px 14px 0;
+    }
+    .blacks-black25{
+      width: 97px;
+      margin: -180px 0 0 801px;
+    }
+    }
+  }
+    }
+  }
+}
+@media (max-width:768px) {
+  #club {
+    margin-top: 887px;
+    .container{
+      width: 90%;
+      .club{
+        h1{
+          margin-left: -170px;
+          margin-top: 152px;
+          width: 585px;
+          font-size: 98px;
+        }
+        p{
+          margin: -71px -116px;
+        }
+      }
+   .develop{
+    .pro{
+      h2{
+        padding-left: 135px;
+      }
+    }
+    .blocks{
+      .block{
+        width: 607px;
+        height: 200px;
+        .work{
+          .texts-p{
+            width: 437px;
+          }
+        }
+      }
+    }
+   }
+   .li{
+    padding: 128px 106px;
+    .line{
+      width: 636px;
+      height: 180px;
+      margin-left: -92px;
+      .three{
+        justify-content: space-evenly;
+        .talking{
+          h2{
+            font-size: 48px;
+            padding-left: 49px;
+          }
+        }
+      .month{
+        h2{
+          font-size: 47px;
+        }
+      }
+      }
+    }
+   }
+   .about{
+    .get{
+      .extension{
+        padding-left: 79px;
+      }
+    }
+   }
+   .why{
+    .it{
+      p {
+        width: 565px;
+     }
+     
+
+     }
+    } 
+    .team{
+      .com{
+        margin-left: -186px;  
+        .tex {
+          margin: -325px 0 0 93px;
+
+          }
+          .blacks-black5 {
+            margin: -210px 0 0 493px;
+            width: 132px;
+            }
+            .blacks-black7{
+              display: none;
+            }
+            .blacks-black25{
+              display: none;
+            }
+            .blacks-black2{
+              display: none;
+              }
+        
+        .blur{
+          width: 654px;
+          height: 290px;
+        }
+        .group1 {
+          width: 85%;      }
+      .group2{
+        display: none;
+      }
+      .blacks-black2{
+        margin: -132px -105px 0;
+      }
+     .blacks-black4 {
+      margin: -521px 0 2px 539px;
+        width: 100px;
+    }
+    .blacks-black3{
+      display: none;
+    }
+      }
+    }
+    }
+}
+
+}
+
+@media (max-width:660px) {
+  #club{
+   .container{
+    .about{
+      .get{
+        .extension {
+          padding-left: 36px;
+      }
+      }
+    }
+    .team{
+      .com{
+        .blur {
+          width: 552px;
+          height: 290px;
+      }
+      .blacks-black4 {
+        margin: -523px 0 2px 496px;
+      
+    }
+    .blacks-black5 {
+      margin: -157px 0 0 459px;
+      width: 112px;
+  }
+      }
+    }
+    .li {
+      padding: 122px 70px;
+  }
+  .club{
+    h1{
+      margin-left: -213px;
+    }
+    p{
+      margin: -63px -150px;
+    }
+  }
+   }
+  }
+}
+
+
+
+@media (max-width:576px) {
+  #club{
+    .container{
+      width: 90%;
+      .about{
+        .get{
+          .extension{
+            padding-left: 0px;
+          }
+        }
+      }
+      .develop{
+        padding-left: 121px;
+        .blocks{
+          .block{
+            width: 537px;
+            height: 195px;
+            margin-left: -119px;
+            .work{
+              .texts-p{
+                font-size: 17px;
+                width: 368px;
+              }
+            }
+          }
+        }
+      }
+      .li{
+        padding: 121px 92px;
+        .line{
+          width: 605px;
+          height: 182px;
+          margin-left: -107px;
+        }
+      }
+      .team{
+       .com{
+        .blacks-black5 {
+          margin: -167px 0 0 495px;
+
+      }
+       }
+      }
+    }
+  } 
+}
+
+@media (max-width:400px) {  
+  
+  #club{
+    .container{
+      .about{
+        .get{
+          .extension {
+            margin-left: -151px;
+        }
+        }
+      }
+
+      .develop{
+        padding-left: 352px;
+        
+        .blocks{
+          .block{
+            width: 502px;
+            height: 200px;
+            .work{
+              .texts-p {
+                width: 335px;
+            }
+            }
+          }
+        }
+      }
+    
+    }
+  }
+}
+
+@media (max-width:376px) {
+  #club{
+    .container{
+      width: 90%;
+      .why{
+        .it{
+          p {
+            width: 349px;
+        }
+      }
+    }
+        .develop{
+          .pro{
+           h2 {
+              padding-left: 56px;
+          }
+          }
+          .blocks{
+            .block{
+              width: 315px;
+              height: 263px;
+              margin-left: -348px;
+              .work{
+                .texts{
+                  padding-left: 33px;
+                  p{
+                    width: 275px;
+                   
+                  }
+                }
+                .smail{
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+        .li{
+          .line{
+            width: 333px;
+            height: 415px;
+            .three{
+              flex-direction: column;
+              .talking{
+                font-size: 44px;
+              }
+            }
+          }
+        }
+       .about{
+        padding-left: 61px;
+        .get{
+          .extension{
+            h2 {
+              width: 661px;
+              margin: -26px 163px;
+          }
+          .di{
+            padding-left:149px;
+            .block {
+              width: 304px;
+              height: 291px;
+         
+          .discussions {
+            padding: 18px 4px;
+        }
+      }
+          }
+         
+          }
+          .all{
+            .block{
+              width: 309px;
+    height: 304px;
+            }
+          }
+        }
+      }
+          .team{
+            h1{
+              font-size: 38px;
+            }
+            .com{
+              .blacks-black4 {
+                margin: -527px 0 0px 399px;
+                width: 64px;
+            }
+              .blur {
+                margin: -136px -98px;
+                width: 315px;
+                height: 283px;
+            }
+            .blacks-black5{
+              display: none;
+            }
+            .tex{
+              margin: -328px 0 0 196px;
+              .front{
+                font-size: 47px;
+              }
+              .design{
+                font-size: 30px;
+              }
+              .back{
+                font-size: 47px;
+              }
+              
+            }
+          }
+        }
+       
+      
+     
+    }
+  }
+}
+@media (max-width:320px) {
+  
+}
+
