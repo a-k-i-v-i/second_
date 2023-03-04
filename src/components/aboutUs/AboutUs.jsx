@@ -83,9 +83,9 @@ const AboutUs = () => {
             </div>
             <div className="logos">
                     <div className="images">
-                        <img src={limitless} alt=""/>
-                        <img src={temir} alt=""/>
-                        <img src={webilim} alt=""/>
+                        <img className="images1" src={limitless} alt=""/>
+                        <img className="images2" src={temir} alt=""/>
+                        <img className="images3" src={webilim} alt=""/>
                     </div>
                 </div>
         </div>

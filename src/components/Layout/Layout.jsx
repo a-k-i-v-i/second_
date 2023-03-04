@@ -5,11 +5,12 @@ import Header from "./header/Header";
 import MainPart from "./mainPart/MainPart";
 
 
+
 const Layout = () => {
     return(
         <div>
           <Header/>
-          <MainPart/>
+         <MainPart/>
           <Outlet/>
           {/* <Footer/> */}
         </div>
