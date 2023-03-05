@@ -10,11 +10,13 @@ import mentorCenter from "../image/frontEnd/mentorCenter.png"
 import mentorLeft from "../image/frontEnd/mentorRight.png"
 import Online from "../inform/Online";
 import Offline from "../inform/Ofline";
+import Accordion from "../home/Accordion";
 
 const Frontend = () => {
     const {t, i18n} = useTranslation();
     const [btn, setBtn] = useState(true)
     const [offline, setOffline] = useState(true)
+    const [active, setActive] = useState("");
     return (
         <>
         <div className="main-title">
@@ -279,16 +281,47 @@ const Frontend = () => {
 
                 </div>
 
-                {/*<div className="program">*/}
-                {/*    <div className="container">*/}
-                {/*        <div className="program--courses">*/}
-                {/*            <h1>{t("frontend.program")}</h1>*/}
-                {/*            <p>{t("frontend.programText")} <br/> {t("frontend.programText-")} <br/> {t("frontend.programText--")} <br/> {t("frontend.programText---")}</p>*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
+                <section id="accordions">
+                    <div className="container">
+                        <div className="accordions">
+                            <div>
+                                <h1>{t("main.accordionsH1")}</h1>
+                            </div>
+                            <div>
+                                <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
+                                <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
+                                <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
+                                <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
+                                <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
+                                <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
+                                <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-
-                {/*</div>*/}
+                <section id="service">
+                    <div className="container">
+                        <div className="service">
+                            <div className="service--left">
+                                <h1>{t("main.serviceH1")}</h1>
+                                <p>{t("main.serviceP")}</p>
+                            </div>
+                            <div className="service--right">
+                                <input type="text" placeholder={"Имя"}/>
+                                <input type="text" placeholder={"Номер"}/>
+                                <input type="text" placeholder="Электронная почта"/>
+                                <div className="service--right__checkout">
+                                    <div>
+                                        <input type="checkbox" style={{width: "20px"}}/>
+                                    </div>
+                                    <span>{t("main.serviceSpan")}</span>
+                                </div>
+                                <button>{t("main.serviceBtn")}</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
             </div>
         </>
