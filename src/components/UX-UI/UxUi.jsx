@@ -11,12 +11,20 @@ import mentorLeft from "../image/frontEnd/mentorRight.png"
 import Online from "../inform/Online";
 import Offline from "../inform/Ofline";
 import Accordion from "../home/Accordion";
+import Modal from "../modal/Modal";
+
+// import Modal from "../modal/Modal";
+
+
 
 const UxUi = () => {
     const {t, i18n} = useTranslation();
     const [btn, setBtn] = useState(true)
     const [offline, setOffline] = useState(true)
     const [active, setActive] = useState("");
+
+    const [modal, setModal] = useState(false)
+
     return (
         <>
         <div className="main-title">
@@ -30,9 +38,18 @@ const UxUi = () => {
                 <h5>{t('frontend.ALINA----')}</h5>
                 <h4>{t('frontend.ux-ui')}</h4>
             </div>
-            <button>{t("frontend.ALINA-button")}</button>
+
+
+            <button onClick={() => setModal(!modal)}>{t("frontend.ALINA-button")}</button>
             
         </div>
+        {modal ? <Modal modal={modal} setModal={setModal}/> : ''}
+
+
+            <button>{t("frontend.ALINA-button")}</button>
+            
+   
+
             <div id="frontEnd">
 
                 <div className="frontEnd">
@@ -322,7 +339,7 @@ const UxUi = () => {
                 </section>
 
             </div>
-        </>
+       </>
 
     )
 }

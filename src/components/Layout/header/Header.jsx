@@ -18,6 +18,12 @@ const Header = () => {
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
+  const valueLang = localStorage.getItem('18nextLng')
+ 
+
+  const scrollWin = ()=>{
+    window.scrollTo(700, 1000000);
+  }
   return (
     <header
         onMouseOver={()=> setCourses(true)}
@@ -35,7 +41,7 @@ const Header = () => {
             <NavLink to={"aboutUs"} className='header--navbar--link'>О нас</NavLink>
             <span className="header--navber--courses"> О курсах</span>
             <NavLink to={"club"} className='header--navbar--link'>Клуб</NavLink>
-            <NavLink className='header--navbar--link'>Контакты</NavLink>
+            <NavLink onClick={scrollWin} className='header--navbar--link'>Контакты</NavLink>
           </nav>
 
         

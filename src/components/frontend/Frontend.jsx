@@ -12,15 +12,23 @@ import Online from "../inform/Online";
 import Offline from "../inform/Ofline";
 import Accordion from "../home/Accordion";
 
+import { useNavigate } from "react-router-dom";
+import Modal from "../modal/Modal";
+
+
 const Frontend = () => {
     const {t, i18n} = useTranslation();
     const [btn, setBtn] = useState(true)
     const [offline, setOffline] = useState(true)
     const [active, setActive] = useState("");
+
+    const navigate = useNavigate()
+    const [modal, setModal] = useState(false)
+
     return (
         <>
         <div className="main-title">
-           
+        {modal ? <Modal modal={modal} setModal={setModal}/> : ''}
             <h1>FRONT <span>END</span></h1>
             <div className="text">
                 <h5>{t('frontend.ALINA')}</h5>
@@ -30,7 +38,8 @@ const Frontend = () => {
                 <h5>{t('frontend.ALINA----')}</h5>
                 <h4>{t('frontend.ux-ui')}</h4>
             </div>
-            <button>{t("frontend.ALINA-button")}</button>
+            <button  onClick={() => setModal(!modal)}>{t("frontend.ALINA-button")}</button>
+
             
         </div>
             <div id="frontEnd">

@@ -13,10 +13,12 @@ import Modal from "../modal/Modal";
 import userlesson from "../image/home-main/card.png"
 import mainuser from "../image/home-main/mainM.png"
 import Accordion from "./Accordion";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Home = () => {
     const {t, i18n} = useTranslation();
     const [modal, setModal] = useState(false)
+    const navigate = useNavigate()
 
     const [json, setJson] = useState([]);
 
@@ -94,7 +96,7 @@ const Home = () => {
                             <div className="title--text">
                                 <p>{t("main.titles")}</p>
                                 <p>{t("main.titles2")}</p>
-                                <a href="#">{t("main.link")}</a>
+                                <NavLink to={'aboutUs'}><a href="#">{t("main.link")}</a></NavLink>
                             </div>
                         </div>
                         <div className="block">
@@ -166,8 +168,8 @@ const Home = () => {
                                         <button>7 месяцев</button>
                                     </div>
                                     <div className="user--one__block--button">
-                                        <button>Подробнее</button>
-                                        <button>Оставить заявку</button>
+                                        <button onClick={()=> navigate('frontend')}>Подробнее</button>
+                                        <button  onClick={() => setModal(!modal)}>Оставить заявку</button>
                                     </div>
                                 </div>
                             </div>
@@ -195,8 +197,8 @@ const Home = () => {
                                         <button>3 месяцев</button>
                                     </div>
                                     <div className="user--one__block--button">
-                                        <button>Подробнее</button>
-                                        <button>Оставить заявку</button>
+                                        <button onClick={()=> navigate('UxUi')}>Подробнее</button>
+                                        <button  onClick={() => setModal(!modal)}>Оставить заявку</button>
                                     </div>
                                 </div>
                             </div>
@@ -226,8 +228,8 @@ const Home = () => {
                                         <button>7 месяцев</button>
                                     </div>
                                     <div className="user--one__block--button">
-                                        <button>Подробнее</button>
-                                        <button>Оставить заявку</button>
+                                        <button onClick={()=> navigate('backend')}>Подробнее</button>
+                                        <button  onClick={() => setModal(!modal)}>Оставить заявку</button>
                                     </div>
                                 </div>
                             </div>
@@ -247,7 +249,7 @@ const Home = () => {
                                 </div>
                                 <div className="lesson--block--right">
                                     <h2>18 февраля в 18:00 мастер класс по FRONTEND</h2>
-                                    <button>Записаться</button>
+                                    <button  onClick={() => setModal(!modal)}>Оставить заявку</button>
                                 </div>
                             </div>
                         </div>
@@ -295,7 +297,7 @@ const Home = () => {
                                     <div className="nav--right__one--right">
                                         <h1>{t("main.webClub")}</h1>
                                         <p>{t("main.webClubTwo")}</p>
-                                        <a href="#">{t("main.link")}</a>
+                                        <NavLink to={'club'}><a href="#">{t("main.link")}</a></NavLink>
                                     </div>
                                 </div>
                             </div>
