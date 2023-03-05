@@ -11,13 +11,17 @@ import mentorLeft from "../image/frontEnd/mentorRight.png"
 import Online from "../inform/Online";
 import Offline from "../inform/Ofline";
 import Accordion from "../home/Accordion";
+
 import Modal from "../modal/Modal";
+
+
 
 const  Backend = () => {
     const {t, i18n} = useTranslation();
     const [btn, setBtn] = useState(true)
     const [offline, setOffline] = useState(true)
     const [active, setActive] = useState("");
+
     const [modal, setModal] = useState(false)
 
     return (
@@ -33,8 +37,12 @@ const  Backend = () => {
                 <h5>{t('frontend.ALINA----')}</h5>
                 <h4>{t('frontend.ux-ui')}</h4>
             </div>
+
             <button  onClick={() => setModal(!modal)}>{t("frontend.ALINA-button")}</button>
             {modal ? <Modal modal={modal} setModal={setModal}/> : ''}
+
+            <button>{t("frontend.ALINA-button")}</button>
+
             
         </div>
             <div id="frontEnd">
