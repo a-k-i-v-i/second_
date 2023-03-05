@@ -11,9 +11,10 @@ import mentorLeft from "../image/frontEnd/mentorRight.png"
 import Online from "../inform/Online";
 import Offline from "../inform/Ofline";
 import Accordion from "../home/Accordion";
-
 import Modal from "../modal/Modal";
-=======
+
+// import Modal from "../modal/Modal";
+
 
 
 const UxUi = () => {
@@ -47,7 +48,7 @@ const UxUi = () => {
 
             <button>{t("frontend.ALINA-button")}</button>
             
-        </div>
+   
 
             <div id="frontEnd">
 
@@ -338,7 +339,7 @@ const UxUi = () => {
                 </section>
 
             </div>
-        </>
+       </>
 
     )
 }
