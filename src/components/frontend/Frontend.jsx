@@ -11,16 +11,20 @@ import mentorLeft from "../image/frontEnd/mentorRight.png"
 import Online from "../inform/Online";
 import Offline from "../inform/Ofline";
 import Accordion from "../home/Accordion";
+
 import { useNavigate } from "react-router-dom";
 import Modal from "../modal/Modal";
+
 
 const Frontend = () => {
     const {t, i18n} = useTranslation();
     const [btn, setBtn] = useState(true)
     const [offline, setOffline] = useState(true)
     const [active, setActive] = useState("");
+
     const navigate = useNavigate()
     const [modal, setModal] = useState(false)
+
     return (
         <>
         <div className="main-title">
