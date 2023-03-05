@@ -18,7 +18,7 @@ const Header = () => {
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
-
+  const valueLang = localStorage.getItem('18nextLng')
  
 
   const scrollWin = ()=>{
