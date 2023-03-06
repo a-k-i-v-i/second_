@@ -44,12 +44,6 @@ const UxUi = () => {
             
         </div>
         {modal ? <Modal modal={modal} setModal={setModal}/> : ''}
-
-
-            <button>{t("frontend.ALINA-button")}</button>
-            
-   
-
             <div id="frontEnd">
 
                 <div className="frontEnd">
