@@ -10,8 +10,8 @@ i18next.use(I18NextHttpBackend).use(I18nextBrowserLanguageDetector).use(initReac
     debug : true,
 
     detection:{
-        order : ['queryString', 'cookie'],
-        Cache : ['cookie']
+        order : ['queryString', 'localStorage'],
+        cache : ['localStorage']
     },
     Interpolation:{
         escapeValue : false
