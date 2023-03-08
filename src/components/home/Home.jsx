@@ -18,17 +18,17 @@ const Home = () => {
     const {t, i18n} = useTranslation();
     const [modal, setModal] = useState(false)
 
-    const [json, setJson] = useState([]);
+    // const [json, setJson] = useState([]);
 
-    const getJson = async () => {
-        const url = await axios(`https://jsonplaceholder.typicode.com/photos`);
-        const {data} = await url;
-        await setJson(data.slice(0, 1));
-    };
+    // const getJson = async () => {
+    //     const url = await axios(`https://jsonplaceholder.typicode.com/photos`);
+    //     const {data} = await url;
+    //     await setJson(data.slice(0, 1));
+    // };
 
-    useEffect(() => {
-        getJson();
-    }, []);
+    // useEffect(() => {
+    //     getJson();
+    // }, []);
 
     const [active, setActive] = useState("");
 
