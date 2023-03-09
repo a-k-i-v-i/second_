@@ -658,6 +658,15 @@ padding: 21px 64px;
   #club{
     .container{
       width: 90%;
+      .club{
+        z-index: -1;
+        h1{
+          margin-left: -279px;
+        }
+        p{
+          margin: -45px -221px;
+        }
+      }
       .about{
         .get{
           .extension{
@@ -684,9 +693,26 @@ padding: 21px 64px;
       .li{
         padding: 121px 92px;
         .line{
-          width: 605px;
+          width: 545px;
           height: 182px;
           margin-left: -107px;
+
+          .three{
+            .talking{
+              h2{
+                font-size: 42px;
+                padding-left: 62px;
+              }
+            }
+            .month{
+              h2{
+                font-size: 42px;
+              }
+              p{
+                margin: -44px -23px -4px -22px;
+              }
+            }
+          }
         }
       }
       .team{

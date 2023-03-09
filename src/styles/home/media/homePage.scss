@@ -86,6 +86,7 @@
 }
 
 @media (max-width: 1140px) {
+
   #title .main--h1 {
     font-size: 98px !important;
     line-height: 100px !important;
@@ -106,6 +107,9 @@
   }
   #service .service--right button {
     width: 100% !important;
+  }
+  #user {
+    padding: 186px 0 1135px 0 !important;
   }
 }
 
@@ -158,6 +162,9 @@
 }
 
 @media (max-width: 880px) {
+  #accordions .accordions {
+    flex-direction: column !important;
+  }
   #title .main--btn {
     margin: -355px 0 16px 219px !important;
   }
@@ -242,6 +249,7 @@
 }
 
 @media (max-width: 576px) {
+
   #title .main--h1 {
     font-size: 54px !important;
     line-height: 75px !important;
@@ -389,9 +397,54 @@
 }
 
 @media (max-width: 320px) {
-  #user {
-    padding: 100px 0 195px 0 !important;
+  #lesson--block--right {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
   }
+  #lesson .lesson--block button {
+    font-size: 17px !important;
+    width: 138px !important;
+  }
+  #title {
+    .block {
+      &--one {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+      }
+      &--two{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+      }
+      &--three {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+      }
+      &--four {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+      }
+    }
+  }
+  #service .service--right button {
+    height: 48px !important;
+    width: 227px !important;
+  }
+  #user .user--one__block--btn button {
+    font-size: 12px !important;
+  }
+  #user .user--one__block--button button {
+    font-size: 16px !important;
+    height: 37px !important;
+  }
+  #user .user--one__top img {
+    width: 43% !important;
+  }
+
   #web {
     padding: 0 0 105px 0 !important;
   }
@@ -496,8 +549,16 @@
       font-size: 20px !important;
     }
   }
+  #title .block {
+    margin: 50px 0 !important;
+  }
+
+
   #bac {
-    padding: 0 0 212px 0 !important;
+    padding: 0 0 21px 0 !important;
+  }
+  #accordions {
+    padding: 10px 0 !important;
   }
   #swiper .swiper h1 {
     font-size: 20px !important;
@@ -507,20 +568,23 @@
       font-size: 20px !important;
       width: 314px !important;
     }
+
     p {
       font-size: 10px !important;
       width: 314px !important;
     }
   }
   #service .service--right input {
-    width: 80% !important;
+    width: 70% !important;
+    height: 36px !important;
   }
   #service .service--right button {
-    width: 300px !important;
+    width: 235px !important;
     font-size: 14px !important;
+    height: 36px!important;
   }
-  .users {
-    display: none;
+  #user {
+    padding: 0 !important;
   }
 }
 

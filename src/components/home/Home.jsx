@@ -33,6 +33,7 @@ const Home = () => {
         getBac()
     }, [])
     console.log(bac)
+    const [active, setActive] = useState("");
 
     const settings = {
         dots: true,

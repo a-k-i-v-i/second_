@@ -74,9 +74,6 @@
     }
     .license {
       padding: 120px;
-      //background: #EFEFEF;
-      //width: 1440px;
-      //height: 654px;
       .our {
         display: flex;
         justify-content: space-between;
@@ -339,6 +336,72 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+}
+@media (max-width: 576px) {
+  #about {
+    .container {
+      .motion {
+        margin: -338px -317px;
+        h1 {
+          width: 561px;
+          margin-left: 8px;
+          span {
+            font-size: 78px;
+          }
+        }
+        p {
+          width: 385px;
+          font-size: 19px;
+          text-align: center;
+          margin-left: 90px;
+        }
+      }
+      .gallery {
+        .photos {
+          h1 {
+            margin: 0 0 36px 117px;
+          }
+          .imag {
+            padding: 2px;
+
+            .grad {
+              margin: 21px -50px;
+            }
+          }
+        }
+      }
+      .founders {
+        .photos {
+          .first {
+            margin: 27px 102px 0 -143px;
+          }
+        }
+        .texts {
+          .texts-text {
+            width: 439px;
+          }
+        }
+      }
+      .license {
+        .our {
+          .lis {
+            .study {
+              .it {
+                margin: 5px -50px -84px;
+              }
+            }
+            .licenses {
+              p {
+                width: 424px;
+              }
+            }
+          }
+          img {
+            width: 362%;
+          }
+        }
+      }
+    }
   }
 }
 @media (max-width: 880px) {
@@ -410,6 +473,11 @@
 @media (max-width: 450px) {
   #about {
     margin-top: 560px;
+    .container {
+      .motion {
+        margin: -181px -322px;
+      }
+    }
   }
   #about .container .founders .texts-title {
     font-size: 33px;
