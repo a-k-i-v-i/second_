@@ -8,28 +8,31 @@ import icon2 from "../image/home-main/icon2.svg";
 import icon3 from "../image/home-main/icon3.svg";
 import icon4 from "../image/home-main/icon4.svg";
 import Slider from "react-slick";
-import axios from "axios";
 import Modal from "../modal/Modal";
 import userlesson from "../image/home-main/card.png"
 import mainuser from "../image/home-main/mainM.png"
 import Accordion from "./Accordion";
+import axios from "axios";
 
 const Home = () => {
     const {t, i18n} = useTranslation();
     const [modal, setModal] = useState(false)
+    const [active, setActive] = useState("");
+    const [bac,setBac] = useState({})
 
-    // const [json, setJson] = useState([]);
-
-    // const getJson = async () => {
-    //     const url = await axios(`https://jsonplaceholder.typicode.com/photos`);
-    //     const {data} = await url;
-    //     await setJson(data.slice(0, 1));
-    // };
-
-    // useEffect(() => {
-    //     getJson();
-    // }, []);
-
+    const getBac = async () => {
+        try {
+            const url = await axios(`https://motion-app.herokuapp.com/api/`)
+            const {data} = await url
+            setBac(data)
+        } catch (e) {
+            console.log(e)
+        }
+    }
+    useEffect(() => {
+        getBac()
+    }, [])
+    console.log(bac)
     const [active, setActive] = useState("");
 
     const settings = {
@@ -68,7 +71,6 @@ const Home = () => {
     };
     return (
         <>
-
             <div>
                 <div id="title">
                     <div className="container">
@@ -80,11 +82,10 @@ const Home = () => {
                             </h1>
 
                             <div className="main--title">
-                                Лицензированная IT академия в Бишкеке
+                                {t("mainPage.main4")}
                             </div>
-                            <button
-                                onClick={() => setModal(!modal)}
-                                className="main--btn">Оставить заявку
+                            <button onClick={() => setModal(!modal)} className="main--btn">
+                                {t("mainPage.main5")}
                             </button>
                         </div>
                         {modal ? <Modal modal={modal} setModal={setModal}/> : ''}
@@ -100,19 +101,21 @@ const Home = () => {
                         <div className="block">
                             <div className="block--one">
                                 <h1>2000+</h1>
-                                <p>Выпусников</p>
+                                <p>
+                                    {t("main.alumni")}
+                                </p>
                             </div>
                             <div className="block--two">
                                 <h1>2</h1>
-                                <p>Года</p>
+                                <p>{t("main.year")}</p>
                             </div>
                             <div className="block--three">
                                 <h1>10+</h1>
-                                <p>Менторов</p>
+                                <p>{t("main.Mentors")}</p>
                             </div>
                             <div className="block--four">
                                 <h1>95%</h1>
-                                <p>Трудоустроились</p>
+                                <p>{t("main.gotAJob")}</p>
                             </div>
                         </div>
                     </div>
@@ -166,8 +169,8 @@ const Home = () => {
                                         <button>7 месяцев</button>
                                     </div>
                                     <div className="user--one__block--button">
-                                        <button>Подробнее</button>
-                                        <button>Оставить заявку</button>
+                                        <button>{t("main.links")}</button>
+                                        <button>{t("main.application")}</button>
                                     </div>
                                 </div>
                             </div>
@@ -195,8 +198,8 @@ const Home = () => {
                                         <button>3 месяцев</button>
                                     </div>
                                     <div className="user--one__block--button">
-                                        <button>Подробнее</button>
-                                        <button>Оставить заявку</button>
+                                        <button>{t("main.links")}</button>
+                                        <button>{t("main.application")}</button>
                                     </div>
                                 </div>
                             </div>
@@ -226,8 +229,8 @@ const Home = () => {
                                         <button>7 месяцев</button>
                                     </div>
                                     <div className="user--one__block--button">
-                                        <button>Подробнее</button>
-                                        <button>Оставить заявку</button>
+                                        <button>{t("main.links")}</button>
+                                        <button>{t("main.application")}</button>
                                     </div>
                                 </div>
                             </div>

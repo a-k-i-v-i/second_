@@ -2,13 +2,15 @@
   "mainPage": {
     "main": "MOTION WEB",
     "main2": " IT",
-    "main3":"ACADEMY"
+    "main3":"ACADEMY",
+    "main4": "Licensed IT Academy in Bishkek",
+    "main5": "Submit your application"
   },
   "main" : {
     "ОНАС" : "About Us\n",
     "titles": "Motion Web IT academy is an international educational project that trains IT practitioners.",
     "titles2": "Thanks to our continuous development, we have developed effective programs for the training of IT specialists. We managed to combine the best practices of offline and online education and thus achieve high results.\n",
-    "link": "",
+    "link": "More",
     "userFront": "Front-end developer is a specialist who creates user interfaces\n",
     "userUi": "UX / UI design is the process of creating interactive, user-friendly interfaces\n",
     "userBac": "Backend developer is a specialist who is responsible for the internal and computational logic of a website",
@@ -20,7 +22,12 @@
     "webEnTwo":"At the moment, specialists who speak English are more in demand on the market, as this makes it possible to bring the product to the world stage. That's why we provide our students with FREE language courses\n",
     "webClub": "IT club\n",
     "webClubTwo":"IT Club is a bridge between the course and real work. Analyzing courses in Bishkek, we decided to open a club that will help students prepare for real projects. Participants without completing the course will be able to understand how to work in a team, learn how to present their work and understand what problems there are at the development stage\n",
-    "links": "",
+    "links": "Learn More",
+    "application": "Submit your application",
+    "alumni": "alumni",
+    "year": "year",
+    "Mentors": "Mentors",
+    "gotAJob": "got a job",
     "accordionsH1":"FAQ",
     "accordionTitle": "",
     "accordionTitleTwo": "",
