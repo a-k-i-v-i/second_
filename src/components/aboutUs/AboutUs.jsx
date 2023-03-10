@@ -12,10 +12,9 @@ import mentors from "../image/aboutus/mentors.aboutus.png"
 import {useTranslation} from "react-i18next";
 
 const AboutUs = () => {
-    const {t,i18n}=useTranslation();
+    const {t, i18n} = useTranslation();
 
-
-    return(
+    return (
         <div id='about'>
             <div className='container'>
                 <div className="motion">
@@ -58,7 +57,7 @@ const AboutUs = () => {
                                     <h2 className='it-txt'>{t("about.direction")}</h2>
                                     <div className="it-ln"></div>
                                 </div>
-</div>
+                            </div>
                         </div>
                         <img src={certificate} alt=""/>
                     </div>
@@ -79,15 +78,15 @@ const AboutUs = () => {
                         <a href="">{t("about.show")}</a>
                     </div>
                 </div>
-                
+
             </div>
             <div className="logos">
-                    <div className="images">
-                        <img className="images1" src={limitless} alt=""/>
-                        <img className="images2" src={temir} alt=""/>
-                        <img className="images3" src={webilim} alt=""/>
-                    </div>
+                <div className="images">
+                    <img className="images1" src={limitless} alt=""/>
+                    <img className="images2" src={temir} alt=""/>
+                    <img className="images3" src={webilim} alt=""/>
                 </div>
+            </div>
         </div>
     )
 }
