@@ -13,11 +13,12 @@ import userlesson from "../image/home-main/card.png"
 import mainuser from "../image/home-main/mainM.png"
 import Accordion from "./Accordion";
 import axios from "axios";
+import {Link, NavLink, useNavigate} from "react-router-dom";
 
 const Home = () => {
+    const navigate = useNavigate()
     const {t, i18n} = useTranslation();
     const [modal, setModal] = useState(false)
-    const [active, setActive] = useState("");
     const [bac,setBac] = useState({})
 
     const getBac = async () => {
@@ -95,7 +96,9 @@ const Home = () => {
                             <div className="title--text">
                                 <p>{t("main.titles")}</p>
                                 <p>{t("main.titles2")}</p>
-                                <a href="#">{t("main.link")}</a>
+                                <NavLink to={"aboutUs"}>
+                                    <a href="#">{t("main.link")}</a>
+                                </NavLink>
                             </div>
                         </div>
                         <div className="block">
@@ -169,8 +172,8 @@ const Home = () => {
                                         <button>7 месяцев</button>
                                     </div>
                                     <div className="user--one__block--button">
+                                        <button onClick={() => navigate("frontEnd")}>{t("main.application")}</button>
                                         <button>{t("main.links")}</button>
-                                        <button>{t("main.application")}</button>
                                     </div>
                                 </div>
                             </div>
@@ -198,8 +201,8 @@ const Home = () => {
                                         <button>3 месяцев</button>
                                     </div>
                                     <div className="user--one__block--button">
+                                        <button onClick={() => navigate("UxUi")}>{t("main.application")}</button>
                                         <button>{t("main.links")}</button>
-                                        <button>{t("main.application")}</button>
                                     </div>
                                 </div>
                             </div>
@@ -229,8 +232,8 @@ const Home = () => {
                                         <button>7 месяцев</button>
                                     </div>
                                     <div className="user--one__block--button">
+                                        <button onClick={() => navigate("backend")}>{t("main.application")}</button>
                                         <button>{t("main.links")}</button>
-                                        <button>{t("main.application")}</button>
                                     </div>
                                 </div>
                             </div>
@@ -298,7 +301,7 @@ const Home = () => {
                                     <div className="nav--right__one--right">
                                         <h1>{t("main.webClub")}</h1>
                                         <p>{t("main.webClubTwo")}</p>
-                                        <a href="#">{t("main.link")}</a>
+                                        <Link to={"club"}><a href="#">{t("main.link")}</a></Link>
                                     </div>
                                 </div>
                             </div>
