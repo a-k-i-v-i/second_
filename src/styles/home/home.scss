@@ -290,23 +290,35 @@ section .scroll div:nth-child(2) {
         &--button {
           display: flex;
           flex-direction: column;
-
-          button {
+          &--one {
             font-weight: 500;
             font-size: 20px;
             line-height: 24px;
-            color: #ffffff;
+            border: 2px solid red;
+            color: #EC3025;
             width: 330px;
             height: 50px;
-            background: #ec3025;
+            background: transparent;
             border-radius: 44px;
-            border: none;
             margin: 10px 0;
-
             &:hover {
-              color: #ec3025;
-              background: transparent;
-              border: 2px solid red;
+              background: rgba(236, 48, 37, 0.2);
+            }
+          }
+          &--two {
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 24px;
+              color: #ffffff;
+              width: 330px;
+              height: 50px;
+              background: #ec3025;
+              border-radius: 44px;
+              border: none;
+              margin: 10px 0;
+              &:hover {
+                color: #ffffff;
+                background: #090A0C;
             }
           }
         }
@@ -537,12 +549,13 @@ section .scroll div:nth-child(2) {
 }
 
 #accordions {
+  padding: 0 0 372px 0 !important;
 
   .accordions {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-
+    padding: 0 0 372px 0 !important;
     h1 {
       font-weight: 500;
       font-size: 36px;

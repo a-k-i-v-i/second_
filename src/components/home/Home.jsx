@@ -14,18 +14,71 @@ import mainuser from "../image/home-main/mainM.png"
 import Accordion from "./Accordion";
 import axios from "axios";
 import {Link, NavLink, useNavigate} from "react-router-dom";
+import {useForm} from "react-hook-form";
+
+const Home = () => {
+    const navigate = useNavigate()
+    const [active, setActive] = useState("");
+    const {t, i18n} = useTranslation();
+    const [modal, setModal] = useState(false)
+    const [bac, setBac] = useState({})
+    const [pending, setPending] = useState(true);
+    const [closeModal, setCloseModal] = useState(true);
+    const [pleasholder, setPleasholder] = useState('номер')
+    const [values, setValues] = useState({
+        name: "",
+        phone: "",
+    });
+    const {
+        register,
+        formState: {
+            errors,
+            isValid
+        },
+        handleSubmit,
+        reset,
+    } = useForm({
+        mode: 'onBlur'
+    })
+    const onSubmit = (data) => {
+        reset();
+    }
 
 const Home = () => {
     const navigate = useNavigate()
     const {t, i18n} = useTranslation();
     const [modal, setModal] = useState(false)
     const [bac,setBac] = useState({})
+    const getValues = (e) => {
+        setValues({...values, [e.target.name]: e.target.value});
+    };
 
+    const post_Form = async () => {
+        await axios
+            .post(`https://motion-app.herokuapp.com/api/v1/applications/`, {
+                name: values.name,
+                number: values.phone,
+                email: values.email,
+            })
+            .then((res) => {
+                console.log(res);
+            })
+            .catch((error) => {
+                console.error(error);
+            });
+        setPending(false);
+        if (errors) {
+            setTimeout(() => {
+                setCloseModal(false);
+            }, 3000);
+        }
+    };
     const getBac = async () => {
         try {
-            const url = await axios(`https://motion-app.herokuapp.com/api/`)
+            const url = await axios(`https://motion-app.herokuapp.com/api/v1/applications/`)
             const {data} = await url
             setBac(data)
+            console.log(data)
         } catch (e) {
             console.log(e)
         }
@@ -34,7 +87,6 @@ const Home = () => {
         getBac()
     }, [])
     console.log(bac)
-    const [active, setActive] = useState("");
 
     const settings = {
         dots: true,
@@ -126,26 +178,26 @@ const Home = () => {
 
                 <section>
                     <div className="scroll text1">
-                        <div style={{background:"red"}}>
+                        <div style={{background: "red"}}>
                             КУРСЫ <span>КУРСЫ - </span> КУРСЫ <span>
-                            КУРСЫ - </span>   КУРСЫ <span>КУРСЫ - </span> КУРСЫ <span>
+                            КУРСЫ - </span> КУРСЫ <span>КУРСЫ - </span> КУРСЫ <span>
                             КУРСЫ - </span>
                         </div>
-                        <div style={{background:"red"}}>
+                        <div style={{background: "red"}}>
                             КУРСЫ <span>КУРСЫ - </span> КУРСЫ <span>
-                            КУРСЫ - </span>   КУРСЫ <span>КУРСЫ - </span> КУРСЫ <span>
+                            КУРСЫ - </span> КУРСЫ <span>КУРСЫ - </span> КУРСЫ <span>
                             КУРСЫ - </span>
                         </div>
                     </div>
                     <div className="scroll text2">
-                        <div style={{background:"#4886FF"}}>
+                        <div style={{background: "#4886FF"}}>
                             BACKEND <span>UX UI - </span> BACKEND <span>
-                            FRONTEND - </span>   BACKEND <span>UX UI - </span> FRONTEND <span>
+                            FRONTEND - </span> BACKEND <span>UX UI - </span> FRONTEND <span>
                             BACKEND - </span>
                         </div>
-                        <div style={{background:"#4886FF"}}>
+                        <div style={{background: "#4886FF"}}>
                             BACKEND <span>UX UI - </span> BACKEND <span>
-                            FRONTEND - </span>   BACKEND <span>UX UI - </span> FRONTEND <span>
+                            FRONTEND - </span> BACKEND <span>UX UI - </span> FRONTEND <span>
                             BACKEND - </span>
                         </div>
                     </div>
@@ -168,10 +220,12 @@ const Home = () => {
                                         <button>JS</button>
                                         <button>CSS</button>
                                         <button>SASS</button>
-                                        <button>+Английский</button>
-                                        <button>7 месяцев</button>
+                                        <button  style={{color: "#4886FF" , border: "2px solid #4886FF"}}>+Английский</button>
+                                        <button  style={{color: "#4886FF" , border: "2px solid #4886FF"}}>7 месяцев</button>
                                     </div>
                                     <div className="user--one__block--button">
+                                        <button className="user--one__block--button--one" onClick={() => navigate("frontEnd")}>{t("main.application")}</button>
+                                        <button className="user--one__block--button--two">{t("main.links")}</button>
                                         <button onClick={() => navigate("frontEnd")}>{t("main.application")}</button>
                                         <button>{t("main.links")}</button>
                                     </div>
@@ -197,10 +251,12 @@ const Home = () => {
                                         <button>Figma</button>
                                         <button>Adobe XD</button>
                                         <button>Photoshop</button>
-                                        <button>+Английский</button>
-                                        <button>3 месяцев</button>
+                                        <button  style={{color: "#4886FF" , border: "2px solid #4886FF"}}>+Английский</button>
+                                        <button  style={{color: "#4886FF" , border: "2px solid #4886FF"}}>3 месяцев</button>
                                     </div>
                                     <div className="user--one__block--button">
+                                        <button className="user--one__block--button--one" onClick={() => navigate("UxUi")}>{t("main.application")}</button>
+                                        <button className="user--one__block--button--two">{t("main.links")}</button>
                                         <button onClick={() => navigate("UxUi")}>{t("main.application")}</button>
                                         <button>{t("main.links")}</button>
                                     </div>
@@ -219,19 +275,18 @@ const Home = () => {
                                 <div className="user--one__block">
                                     <h1>BACKEND</h1>
                                     <p>{t("main.userBac")}</p>
-                                    <div
-                                        className="user--one__block--btn"
-                                        style={{padding: "0 0px 49px 0"}}
-                                    >
+                                    <div className="user--one__block--btn" style={{padding: "0 0px 49px 0"}}>
                                         <button>HTML</button>
                                         <button>React</button>
                                         <button>JS</button>
                                         <button>CSS</button>
                                         <button>SASS</button>
-                                        <button>+Английский</button>
-                                        <button>7 месяцев</button>
+                                        <button  style={{color: "#4886FF" , border: "2px solid #4886FF"}}>+Английский</button>
+                                        <button  style={{color: "#4886FF" , border: "2px solid #4886FF"}}>7 месяцев</button>
                                     </div>
                                     <div className="user--one__block--button">
+                                        <button className="user--one__block--button--one" onClick={() => navigate("backend")}>{t("main.application")}</button>
+                                        <button className="user--one__block--button--two">{t("main.links")}</button>
                                         <button onClick={() => navigate("backend")}>{t("main.application")}</button>
                                         <button>{t("main.links")}</button>
                                     </div>
@@ -357,12 +412,12 @@ const Home = () => {
                             </div>
                             <div>
                                 <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
-                                <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
-                                <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
-                                <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
-                                <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
-                                <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
-                                <Accordion title={t("main.accordionTitle")} active={active} setActive={setActive}/>
+                                <Accordion title={t("main.accordionTitle2")} active={active} setActive={setActive}/>
+                                <Accordion title={t("main.accordionTitle3")} active={active} setActive={setActive}/>
+                                <Accordion title={t("main.accordionTitle4")} active={active} setActive={setActive}/>
+                                <Accordion title={t("main.accordionTitle5")} active={active} setActive={setActive}/>
+                                <Accordion title={t("main.accordionTitle6")} active={active} setActive={setActive}/>
+                                <Accordion title={t("main.accordionTitle7")} active={active} setActive={setActive}/>
                             </div>
                         </div>
                     </div>
@@ -376,16 +431,47 @@ const Home = () => {
                                 <p>{t("main.serviceP")}</p>
                             </div>
                             <div className="service--right">
-                                <input type="text" placeholder={"Имя"}/>
-                                <input type="text" placeholder={"Номер"}/>
-                                <input type="text" placeholder="Электронная почта"/>
-                                <div className="service--right__checkout">
-                                    <div>
-                                        <input type="checkbox" style={{width: "20px"}}/>
+                                <form onSubmit={handleSubmit(onSubmit)} action="">
+                                    <div className="name">
+                                        <input{...register('name', {
+                                            required: 'Поле обязательно к заполнению',
+                                            minLength: {value: 1, message: 'укажите точное  имя'}
+                                        })} onChange={getValues} type="text" name="name" className="modal--input"
+                                              placeholder="Имя"/>
+                                        <div>{errors?.name && <p style={{
+                                            color: 'red',
+                                            marginTop: '-29px'
+                                        }}>{errors?.name?.message || 'Error!'}</p>}</div>
                                     </div>
-                                    <span>{t("main.serviceSpan")}</span>
-                                </div>
-                                <button>{t("main.serviceBtn")}</button>
+                                    <div className="phone">
+                                        <input  onClick={() => setPleasholder('000 00 00 00')}{...register('phone', {
+                                            required: 'Поле обязательно к заполнению',
+                                            maxLength: {
+                                                value: 9,
+                                                message: 'не менее 9 символов',
+                                            }
+                                        })} onChange={getValues} type="number" name="phone" className="modal--input"
+                                               placeholder={pleasholder}/>
+                                        <div>{errors?.phone && <p style={{
+                                            color: 'red',
+                                            marginTop: '-29px'
+                                        }}>{errors?.phone?.message || 'Error!'}</p>}</div>
+                                    </div>
+
+
+                                    <input type="email" placeholder="email" name="email"/>
+
+
+                                    <div style={{display:"flex", alignItems: "center"}} className="modal--checkbox">
+                                        <input style={{width:"26px"}} className="modal--checkbox--check" type="checkbox"/>
+                                        <p style={{padding: "10px"}} className="modal--checkbox--p">
+                                            Я соглашаюсь на обработку персональных данных
+                                        </p>
+                                    </div>
+                                    <button onClick={post_Form} disabled={!isValid} className="modal_btn">
+                                        Оставить заявку
+                                    </button>
+                                </form>
                             </div>
                         </div>
                     </div>
