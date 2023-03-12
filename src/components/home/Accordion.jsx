@@ -17,8 +17,8 @@ const Accordion = ({title, active, setActive}) => {
                     </div>
                 </div>
             </div>
-
         </>
+
     );
 };
 
