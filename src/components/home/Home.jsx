@@ -44,6 +44,11 @@ const Home = () => {
         reset();
     }
 
+const Home = () => {
+    const navigate = useNavigate()
+    const {t, i18n} = useTranslation();
+    const [modal, setModal] = useState(false)
+    const [bac,setBac] = useState({})
     const getValues = (e) => {
         setValues({...values, [e.target.name]: e.target.value});
     };
@@ -221,6 +226,8 @@ const Home = () => {
                                     <div className="user--one__block--button">
                                         <button className="user--one__block--button--one" onClick={() => navigate("frontEnd")}>{t("main.application")}</button>
                                         <button className="user--one__block--button--two">{t("main.links")}</button>
+                                        <button onClick={() => navigate("frontEnd")}>{t("main.application")}</button>
+                                        <button>{t("main.links")}</button>
                                     </div>
                                 </div>
                             </div>
@@ -250,6 +257,8 @@ const Home = () => {
                                     <div className="user--one__block--button">
                                         <button className="user--one__block--button--one" onClick={() => navigate("UxUi")}>{t("main.application")}</button>
                                         <button className="user--one__block--button--two">{t("main.links")}</button>
+                                        <button onClick={() => navigate("UxUi")}>{t("main.application")}</button>
+                                        <button>{t("main.links")}</button>
                                     </div>
                                 </div>
                             </div>
@@ -278,6 +287,8 @@ const Home = () => {
                                     <div className="user--one__block--button">
                                         <button className="user--one__block--button--one" onClick={() => navigate("backend")}>{t("main.application")}</button>
                                         <button className="user--one__block--button--two">{t("main.links")}</button>
+                                        <button onClick={() => navigate("backend")}>{t("main.application")}</button>
+                                        <button>{t("main.links")}</button>
                                     </div>
                                 </div>
                             </div>
